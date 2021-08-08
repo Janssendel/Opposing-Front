@@ -1,0 +1,10 @@
+name: Plasteel Wall
+description: Cheap , effective wall that can suffer more punishment that a thorium wall . Can be spammed if you want to .
+health: 1000
+size: 1
+type: Wall
+research: plasteel
+requirements: [
+	plasteel/10
+]
+buildVisibility: shown
