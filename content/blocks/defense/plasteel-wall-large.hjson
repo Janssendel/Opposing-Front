@@ -7,3 +7,4 @@ research: plasteel-wall
 requirements: [
 	plasteel/10
 ]
+buildVisibility: shown
