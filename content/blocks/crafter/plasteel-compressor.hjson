@@ -28,7 +28,7 @@ consumes: {
 		plastanium/4
 		titanium/4
 		]
-		}
+		}		
 	}
 requirements: [
 	titanium/40
@@ -39,3 +39,4 @@ category: crafting
 research: alloy-smelter
 outputItem: plasteel/4
 buildVisibility: shown
+type: genericCrafter
