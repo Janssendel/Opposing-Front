@@ -15,7 +15,6 @@ craftEffect:{
 	spin: 50
 	sizeFrom: 4
 	sizeTo: 1
-	region: particle
 	lenFrom: 1
 	lenTo: 2
 	strokeFrom: 4
