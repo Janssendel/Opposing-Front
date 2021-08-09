@@ -8,4 +8,4 @@ requirements: [
 	plasteel/10
 ]
 buildVisibility: shown
-category: defence
+category: defense
