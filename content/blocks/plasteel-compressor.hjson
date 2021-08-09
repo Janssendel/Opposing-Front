@@ -1,0 +1,39 @@
+name: Plasteel Compressor
+drawer: DrawRotator
+size: 2
+hasPower: true
+hasLiquids: false
+hasItems: true
+craftTime: 120
+craftEffect:{
+	type: ParticleEffect
+	colorFrom: ffffff
+	colorTo: a5a5a5
+	particles: 10
+	cone: 360
+	lenth: 10
+	spin: 50
+	sizeFrom: 4
+	sizeTo: 1
+	lenFrom: 1
+	lenTo: 2
+	strokeFrom: 4
+	strokeTo: 2
+	lifetime: 25
+}
+consumes: {
+	power: 40
+	items: [
+		plastanium/4
+		titanium/4
+		]		
+	}
+requirements: [
+	titanium/40
+	copper/20
+	graphite/15
+]
+category: crafting
+research: alloy-smelter
+outputItem: plasteel/4
+buildVisibility: shown
