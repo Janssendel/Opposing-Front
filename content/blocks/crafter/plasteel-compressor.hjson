@@ -28,6 +28,7 @@ consumes: {
 		items: [
 		plastanium/4
 		titanium/4
+		]
 		}
 	}
 requirements: [
@@ -38,3 +39,4 @@ requirements: [
 category: crafting
 reasearch: surge-alloy-smelter
 outputItem: plasteel/4
+buildVisibility: shown
