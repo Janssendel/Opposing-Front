@@ -37,6 +37,7 @@ requirements: [
 	graphite/15
 ]
 category: crafting
-reasearch: surge-alloy-smelter
+research: surge-alloy-smelter
 outputItem: plasteel/4
 buildVisibility: shown
+buildTime: 5
