@@ -1,7 +1,7 @@
 name: Bite
 type: flying
 hitSize: 22
-health: 
+health: 70
 speed: 1
 accel: 0.5
 drag: 0.001
