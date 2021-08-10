@@ -11,7 +11,7 @@ shootSound: thunderclap
 shootLength: 1
 shootType: {
 	type: LightningBulletType
-	lightningLength: 128
+	lightningLength: 16
 	ammoMultiplier: 2
 	damage: 50
 	lightningColor: 2cfbbf
