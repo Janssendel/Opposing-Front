@@ -1,0 +1,29 @@
+type: PowerTurret
+name: Centimeter
+health: 400
+size: 1
+rotateSpeed: 15
+range: 128
+powerUse: 40
+shootEffect: none
+smokeEffect: none
+shootSound: thunderclap
+shootLength: 1
+shootType: {
+	type: LightningBulletType
+	lightningLength: 128
+	ammoMultiplier: 2
+	damage: 50
+	lightningColor: 2cfbbf
+	status: electrified
+}
+hitEffect: electrified
+research: plasteel
+category: turret
+requirements: [
+	plasteel/10
+	titanium/20
+	plastanium/5
+]
+
+	
