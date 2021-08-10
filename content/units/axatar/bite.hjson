@@ -1,5 +1,4 @@
 name: Bite
-defaultController: FlyingAI
 type: flying
 hitSize: 22
 health: 
@@ -20,8 +19,8 @@ weapons: [
 		rotateSpeed: 11
 		autoTarget: true
 		controllable: false
-		ignoreRotation
-		continous: true
+		ignoreRotation: true
+		continuous: true
 		mirror: false
 		shootSound: beam
 		reload: 90
@@ -42,7 +41,7 @@ weapons: [
 		rotateSpeed: 11
 		autoTarget: true
 		controllable: false
-		ignoreRotation
+		ignoreRotation: true
 		continous: true
 		mirror: false
 		shootSound: beam
