@@ -30,7 +30,6 @@ weapons: [
 	rotate: true
 	shake: 0.8
 	bullet: {
-		name: fragPlastic
 		type: BulletType
 		speed: 10
 		lifetime: 125
