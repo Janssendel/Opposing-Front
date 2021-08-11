@@ -13,6 +13,7 @@ rotateSpeed: 2
 engineOffset: 7
 engineSize: 3
 rotateShooting: false
+lowAlttitude: true
 weapons: [
 	{
 	name: gun1
@@ -20,19 +21,20 @@ weapons: [
 	y: 0
 	mirror: true
 	alternate: true
+	shootEffect: none
+	smokeEffect: none
 	controllable: false
 	autoTarget: true
 	predictTarget: true
 	ejectEffect: casing1
 	reload: 7.5	
 	inaccuracy: 17
-	range: 312.5
 	rotate: true
 	shake: 0.8
 	bullet: {
 		type: BulletType
-		speed: 10
-		lifetime: 125
+		speed: 5
+		lifetime: 25
 		damage: 9
 		hitEffect: plasticExplosionFlak
 		despawnEffect: plasticExplosion
