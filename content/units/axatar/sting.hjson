@@ -5,24 +5,23 @@ controller: FlyingAI
 hovering: true
 flying: true
 hitSize: 22
-health: 70
-armor: 2
+health: 125
+armor: 1
 speed: 2
 accel: 0.5
-drag: 0.001
+drag: 0.01
 rotateSpeed: 2
 engineOffset: 7
 engineSize: 3
 circleTarget: true
+rotateShooting: true
+commandLimit: 9
 weapons: [
 	{
 	name: chainblast
 	x: 0
 	y: 0
 	rotate: false
-	controllable: false
-	autoTarget: true
-	predictTarget: true
 	shootEffect: none
 	reload: 2
 	inaccuracy: 4

@@ -28,7 +28,7 @@ weapons: [
 	predictTarget: true
 	ejectEffect: casing1
 	reload: 10	
-	inaccuracy: 17
+	inaccuracy: 10
 	rotate: true
 	shake: 0.8
 	bullet: {
@@ -39,6 +39,8 @@ weapons: [
 		hitEffect: plasticExplosionFlak
 		despawnEffect: plasticExplosion
 		status: blasted
+		hittable: false
 			}
 		}
 	]
+research: sting
