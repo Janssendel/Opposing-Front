@@ -10,7 +10,6 @@ speed: 1.5
 accel: 0.5
 drag: 0.01
 rotateSpeed: 2
-circleTarget: true
 engineOffset: 7
 engineSize: 3
 rotateShooting: false
@@ -21,13 +20,23 @@ weapons: [
 	y: 0
 	mirror: true
 	alternate: true
+	controllable: false
+	autoTarget: true
+	predictTarget: true
 	ejectEffect: casing1
-	bullet: fragPlasticFrag
-	speed: 10
-	lifetime: 125
-	reload: 7.5
-	damage: 9
+	reload: 7.5	
 	inaccuracy: 17
 	range: 312.5
+	rotate: true
+	shake: 0.8
+	bullet: {
+		name: fragPlastic
+		type: BulletType
+		speed: 10
+		lifetime: 125
+		damage: 9
+		hitEffect: fragPlasticFrag
+		despawnEffect: fragPlasticFrag
+			}
 		}
 	]
