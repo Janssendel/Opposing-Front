@@ -1,0 +1,44 @@
+type: flying
+flying: true
+name: Sting
+controller: FlyingAI
+hovering: true
+flying: true
+hitSize: 22
+health: 70
+armor: 2
+speed: 2
+accel: 0.5
+drag: 0.001
+rotateSpeed: 2
+engineOffset: 7
+engineSize: 3
+circleTarget: true
+weapons: [
+	{
+	name: chainblast
+	x: 0
+	y: 0
+	rotate: false
+	controllable: false
+	autoTarget: true
+	predictTarget: true
+	shootEffect: none
+	reload: 2
+	inaccuracy: 4
+	bullet: {
+		type: BulletType
+		speed: 3
+		lifetime: 10
+		damage: 4
+		hitShake: 1
+		frontColor: 84f491
+		backColor: 73d188
+		hittable: false
+		despawnEffect: none
+		hitEffect: none
+		}
+	}
+]
+	
+		
