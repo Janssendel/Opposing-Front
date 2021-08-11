@@ -1,6 +1,6 @@
 name: Bite
 controller: FlyingAI
-type: air
+type: flying
 hovering: true
 flying: true
 hitSize: 22
