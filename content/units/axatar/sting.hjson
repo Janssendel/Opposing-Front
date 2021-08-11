@@ -1,5 +1,4 @@
 type: flying
-flying: true
 name: Sting
 controller: FlyingAI
 hovering: true
@@ -14,7 +13,7 @@ rotateSpeed: 2
 engineOffset: 7
 engineSize: 3
 circleTarget: true
-rotateShooting: true
+rotateShooting: false
 commandLimit: 9
 weapons: [
 	{
@@ -23,11 +22,11 @@ weapons: [
 	y: 0
 	rotate: false
 	shootEffect: none
-	reload: 2
+	reload: 4
 	inaccuracy: 4
 	bullet: {
 		type: BulletType
-		speed: 3
+		speed: 2
 		lifetime: 10
 		damage: 4
 		hitShake: 1
