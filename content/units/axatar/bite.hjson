@@ -33,4 +33,4 @@ weapons: [
 	inaccuracy: 17
 		}
 	]
-	
+range: 50
