@@ -1,10 +1,14 @@
 name: Bite
-type: flying
+controller: FlyingAI
+type: air
+hovering: true
+flying: true
 hitSize: 22
 health: 70
-speed: 1
+armor: 2
+speed: 1.5
 accel: 0.5
-drag: 0.001
+drag: 0.01
 rotateSpeed: 2
 circleTarget: true
 engineOffset: 7
@@ -12,48 +16,21 @@ engineSize: 3
 rotateShooting: false
 weapons: [
 	{
-		name: beam1
-		x: 3
-		y: 0
-		rotate: true
-		rotateSpeed: 11
-		autoTarget: true
-		controllable: false
-		ignoreRotation: true
-		continuous: true
-		mirror: false
-		shootSound: beam
-		reload: 90
-		length: 64
-		bullet: {
-			type: ContinuosLaserBulletType
-			damage: 10
-			hitEffect: lightning
-			colors: [c2bffb, 8e85a2, 8175a5, 9c88c3]
-			lightColors: cccedb
-			}
-		}
-	{
-		name: beam2
-		x: -3
-		y: 0
-		rotate: true
-		rotateSpeed: 11
-		autoTarget: true
-		controllable: false
-		ignoreRotation: true
-		continous: true
-		mirror: false
-		shootSound: beam
-		reload: 90
-		length: 64
-		bullet: {
-			type: ContinuosLaserBulletType
-			damage: 10
-			hitEffect: lightning
-			colors: [c2bffb, 8e85a2, 8175a5, 9c88c3]
-			lightColors: cccedb
-			}
+	name: gun1
+	x: 3
+	y: 0
+	mirror: true
+	controllable: false
+	autoTarget: true
+	predictTarget: true
+	alternate: true
+	ejectEffect: casing1
+	bullet: fragPlasticFrag
+	speed: 10
+	lifetime: 5
+	reload: 7.5
+	damage: 9
+	inaccuracy: 17
 		}
 	]
 	
