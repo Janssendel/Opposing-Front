@@ -20,9 +20,6 @@ weapons: [
 	x: 3
 	y: 0
 	mirror: true
-	controllable: false
-	autoTarget: true
-	predictTarget: true
 	alternate: true
 	ejectEffect: casing1
 	bullet: fragPlasticFrag
