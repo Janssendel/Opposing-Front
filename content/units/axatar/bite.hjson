@@ -27,7 +27,7 @@ weapons: [
 	autoTarget: true
 	predictTarget: true
 	ejectEffect: casing1
-	reload: 7.5	
+	reload: 10	
 	inaccuracy: 17
 	rotate: true
 	shake: 0.8
@@ -35,9 +35,10 @@ weapons: [
 		type: BulletType
 		speed: 5
 		lifetime: 25
-		damage: 9
+		damage: 15
 		hitEffect: plasticExplosionFlak
 		despawnEffect: plasticExplosion
+		status: blasted
 			}
 		}
 	]
