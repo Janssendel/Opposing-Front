@@ -27,10 +27,10 @@ weapons: [
 	ejectEffect: casing1
 	bullet: fragPlasticFrag
 	speed: 10
-	lifetime: 5
+	lifetime: 125
 	reload: 7.5
 	damage: 9
 	inaccuracy: 17
+	range: 312.5
 		}
 	]
-range: 50
