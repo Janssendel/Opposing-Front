@@ -34,7 +34,7 @@ weapons: [
 		speed: 10
 		lifetime: 125
 		damage: 9
-		hitEffect: plasticExplosionFrag
+		hitEffect: plasticExplosionFlak
 		despawnEffect: plasticExplosion
 			}
 		}
