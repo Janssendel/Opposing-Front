@@ -13,7 +13,7 @@ rotateSpeed: 2
 engineOffset: 7
 engineSize: 3
 circleTarget: true
-rotateShooting: false
+rotateShooting: true
 commandLimit: 9
 weapons: [
 	{
