@@ -25,6 +25,7 @@ weapons: [
 	reload: 30
 	inaccuracy: 4
 	shootSound: shootBig
+	dpsEstimate: 100
 	bullet: {
 		type: MissileBulletType
 		speed: 2
@@ -36,6 +37,10 @@ weapons: [
 		hittable: false
 		despawnEffect: blockExplosionSmoke
 		hitEffect: blockExplosionSmoke
+		homingPower: 4
+		height: 4
+		width: 2
+		trailEffect:  oily
 		}
 	}
 ]
