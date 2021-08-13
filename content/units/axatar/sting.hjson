@@ -17,24 +17,25 @@ rotateShooting: false
 commandLimit: 9
 weapons: [
 	{
-	name: chainblast
+	name: 1
 	x: 0
 	y: 0
 	rotate: false
 	shootEffect: none
-	reload: 4
+	reload: 30
 	inaccuracy: 4
+	shootSound: shootBig
 	bullet: {
-		type: BulletType
+		type: MissileBulletType
 		speed: 2
-		lifetime: 10
-		damage: 4
+		lifetime: 50
+		damage: 50
 		hitShake: 1
 		frontColor: 84f491
 		backColor: 73d188
 		hittable: false
-		despawnEffect: none
-		hitEffect: none
+		despawnEffect: blockExplosionSmoke
+		hitEffect: blockExplosionSmoke
 		}
 	}
 ]
