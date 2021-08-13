@@ -40,7 +40,7 @@ weapons: [
 		homingPower: 4
 		height: 4
 		width: 2
-		trailEffect:  oily
+		trailEffect:  electrified
 		}
 	}
 ]
