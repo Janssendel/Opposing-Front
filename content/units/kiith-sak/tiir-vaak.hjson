@@ -23,7 +23,7 @@ weapons: [
 	shootSound: shoot
 	rotate: false
 	shake: 0.5
-	reload: 40wd
+	reload: 40
 	bullet: {
 		type: MissileBulletType
 		speed: 1.5
