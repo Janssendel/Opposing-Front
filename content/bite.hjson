@@ -1,0 +1,57 @@
+name: Bite
+controller: FlyingAI
+type: flying
+hovering: true
+flying: true
+hitSize: 8
+health: 340
+armor: 2
+speed: 1.5
+accel: 0.5
+drag: 0.01
+rotateSpeed: 2
+engineOffset: 7
+engineSize: 3
+rotateShooting: false
+lowAlttitude: true
+weapons: [
+	{
+	name: gun1
+	x: 3
+	y: 0
+	mirror: true
+	alternate: true
+	shootEffect: none
+	smokeEffect: none
+	shootSound: bigshot
+	controllable: false
+	autoTarget: true
+	predictTarget: true
+	ejectEffect: casing1
+	reload: 10	
+	inaccuracy: 10
+	rotate: true
+	shake: 0.8
+	dpsEstimate: 90
+	bullet: {
+		type: BulletType
+		speed: 5
+		lifetime: 25
+		damage: 15
+		hitEffect: plasticExplosionFlak
+		despawnEffect: plasticExplosion
+		status: blasted
+		hittable: false
+		trailEffect: electrified 
+		hitSound: explosion
+		despawnSound: explosion
+		status: electrified
+		statusDuration: 60
+		frontColor: 84f491
+		backColor: 73d188
+		height: 4
+		width: 2
+			}
+		}
+	]
+research: sting
