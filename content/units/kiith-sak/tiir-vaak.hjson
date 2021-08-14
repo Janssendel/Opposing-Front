@@ -7,8 +7,7 @@ armor: 1
 health: 100
 speed: 5
 accel: 0.1
-omniMovement: true
-drag: 0.001
+omniMovement: false
 rotateSpeeed: 2.5
 engineOffset: 4
 engineSize: 2
@@ -24,6 +23,7 @@ weapons: [
 	shootSound: shoot
 	rotate: false
 	shake: 0.5
+	reload: 40wd
 	bullet: {
 		type: MissileBulletType
 		speed: 1.5
