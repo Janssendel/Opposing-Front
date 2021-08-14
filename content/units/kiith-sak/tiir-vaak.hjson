@@ -7,8 +7,6 @@ armor: 1
 health: 100
 speed: 5
 accel: 0.1
-omniMovement: true
-circleTarget: true
 rotateSpeeed: 2.5
 engineOffset: 4
 engineSize: 2
@@ -36,10 +34,11 @@ weapons: [
 				colorFrom: c45f5f
 				colorTo: 3f4049
 				particles: 10
-				sizeFrom: 8
-				sizeTo: 4 
+				sizeFrom: 4
+				sizeTo: 1
 				region: shape-3
 				spin: 3
+				
 			}
 		trailInterval: 0
 		trailLength: 5
