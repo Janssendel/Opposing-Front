@@ -11,11 +11,12 @@ omniMovement: false
 rotateSpeeed: 2.5
 engineOffset: 4
 engineSize: 2
+lowAltittude: false
 weapons: [
 	{
 	name: gun2
-	x: 4
-	y: 4
+	x: 0
+	y: 0
 	alternate: true
 	shootEffect: none
 	smokeEffect: none
@@ -46,6 +47,8 @@ weapons: [
 		pierce: true
 		pierceBuilding: true
 		pierceCap: 3
+		frontColor: c45f5f
+		backColor: bc5452
 		}
 	}
 ]
