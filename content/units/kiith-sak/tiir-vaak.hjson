@@ -43,6 +43,25 @@ weapons: [
 		fragLifeMing: 40
 		fragLifeMax: 90
 		fragBullet: 3
+		fragBullets: {	
+			type: BulletType
+			speed: 5
+			lifetime: 25
+			damage: 15
+			hitEffect: plasticExplosionFlak
+			despawnEffect: plasticExplosion
+			status: blasted
+			hittable: false
+			trailEffect: electrified 
+			hitSound: explosion
+			despawnSound: explosion
+			status: electrified
+			statusDuration: 60
+			frontColor: 84f491
+			backColor: 73d188
+			height: 4
+			width: 2
+		}
 	}
 }
 ]
