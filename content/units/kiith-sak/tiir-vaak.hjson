@@ -18,8 +18,8 @@ weapons: [
 	x: 4
 	y: 4
 	alternate: true
-	shootEffect:
-	smokeEffect:
+	shootEffect: none
+	smokeEffect: none
 	ejectEffect: casing1
 	shootSound: shoot
 	rotate: false
@@ -29,8 +29,17 @@ weapons: [
 		speed: 1.5
 		lifetime: 90
 		damage: 40
-		trailEffect: 
-		trailChance: 1E-1
+		trailEffect: {
+				type: ParticleEffect
+				colorFrom: c45f5f
+				colorTo: 3f4049
+				particles: 10
+				sizeFrom: 8
+				sizeTo: 4 
+				region: shape-3
+				spin: 3
+			}
+		trailInterval: 0
 		trailLength: 5
 		trailRotation: true
 		hittable: false
