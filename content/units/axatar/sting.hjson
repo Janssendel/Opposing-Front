@@ -6,8 +6,8 @@ flying: true
 hitSize: 5
 health: 125
 armor: 1
-speed: 2
-accel: 0.5
+speed: 4
+accel: 0.2
 drag: 0.01
 rotateSpeed: 2.5
 engineOffset: 7
