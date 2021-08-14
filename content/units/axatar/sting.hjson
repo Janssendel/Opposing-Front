@@ -3,7 +3,7 @@ name: Sting
 controller: FlyingAI
 hovering: true
 flying: true
-hitSize: 11
+hitSize: 5
 health: 125
 armor: 1
 speed: 2
