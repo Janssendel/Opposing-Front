@@ -8,7 +8,6 @@ health: 100
 speed: 5
 accel: 0.1
 omniMovement: true
-faceShooting: true
 circleTarget: true
 rotateSpeeed: 2.5
 engineOffset: 4
