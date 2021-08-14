@@ -10,6 +10,7 @@ accel: 0.1
 rotateSpeeed: 2.5
 engineOffset: 4
 engineSize: 2
+drag: 0.001
 lowAltittude: false
 weapons: [
 	{
