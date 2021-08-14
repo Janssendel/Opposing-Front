@@ -30,7 +30,7 @@ weapons: [
 		lifetime: 90
 		damage: 40
 		trailEffect: 
-		trailChance: 1
+		trailChance: 1E-1
 		trailLength: 5
 		trailRotation: true
 		hittable: false
@@ -38,25 +38,11 @@ weapons: [
 		pierceBuilding: true
 		pierceCap: 3
 		fragCone: 180
-		fragBullet: 3
 		fragVelocityMin: 1
 		fragVelocityMax: 1.5
 		fragLifeMing: 40
 		fragLifeMax: 90
-		fragBullet: {
-			type: MissileBulletType
-			damage: 50
-			hitShake: 1
-			frontColor: 84f491
-			backColor: 73d188
-			hittable: false
-			despawnEffect: blockExplosionSmoke
-			hitEffect: blockExplosionSmoke
-			homingPower: 4
-			height: 4
-			width: 2
-			trailEffect:  electrified
-		}
+		fragBullet: 3
 	}
 }
 ]
