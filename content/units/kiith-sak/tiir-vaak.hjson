@@ -30,7 +30,7 @@ weapons: [
 		lifetime: 90
 		damage: 40
 		trailEffect: 
-		trailChance: -1E1
+		trailChance: -1.0E1
 		trailLength: 5
 		trailRotation: true
 		hittable: false
