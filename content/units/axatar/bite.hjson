@@ -6,7 +6,7 @@ flying: true
 hitSize: 8
 health: 340
 armor: 2
-speed: 3
+speed: 4
 accel: 0.5
 drag: 0.01
 rotateSpeed: 2.5
@@ -24,9 +24,7 @@ weapons: [
 	shootEffect: none
 	smokeEffect: none
 	shootSound: bigshot
-	controllable: false
-	autoTarget: true
-	predictTarget: true
+
 	ejectEffect: casing1
 	reload: 10	
 	inaccuracy: 10
