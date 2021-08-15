@@ -21,7 +21,7 @@ weapons: [
 	shootEffect: none
 	smokeEffect: none
 	ejectEffect: casing1
-	shootSound: shoot
+	shootSound: shootbig
 	rotate: false
 	shake: 0.5
 	reload: 40
