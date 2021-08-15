@@ -1,14 +1,13 @@
 type: flying
 name: Sting
 controller: FlyingAI
-hovering: true
 flying: true
 hitSize: 5
 health: 125
 armor: 1
 speed: 4
-accel: 0.2
-drag: 0.01
+accel: 0.3
+drag: 0.1
 rotateSpeed: 3
 engineOffset: 7
 engineSize: 3
@@ -45,8 +44,8 @@ weapons: [
 			colorFrom: 87ceeb
 			colorTo: 3f4049
 			particles: 10
-			sizeFrom: 2
-			sizeTo: 1
+			sizeFrom: 4
+			sizeTo: 2
 			region: particle
 			spin: 3
 			}
