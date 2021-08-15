@@ -1,0 +1,12 @@
+name: Plasteel Conveyor
+type: Conveyor
+description: Plasteel Conveyor . Faster than the Titanium conveyor and relativly strong .
+health: 240
+category: distribution
+requirements: [
+	plasteel/1
+	copper/5
+]
+speed: 13
+research: plasteel
+displayedSpeed: 11
