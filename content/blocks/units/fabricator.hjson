@@ -1,0 +1,31 @@
+name: Fabricator
+type: UnitFactory
+size: 3
+power: {
+	power: 0.8
+}
+capacities: 2
+plans: [
+	{
+		unit: sting
+		time: 660
+		requirements: [
+			plasteel/10
+			silicon/30
+		]
+	}
+	{
+		unit: tiir-vaak
+		time: 720
+		requirements: [
+			plasteel/25
+			silicon: 15
+		]
+	}
+]
+requirements: [
+	plasteel/30
+	plastatnium/25
+]
+research: plasteel
+category: unit
