@@ -28,7 +28,7 @@ weapons: [
 	bullet: {
 		type: MissileBulletType
 		speed: 1.5
-		lifetime: 90
+		lifetime: 80
 		damage: 40
 		trailEffect: {
 				type: ParticleEffect
