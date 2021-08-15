@@ -12,7 +12,7 @@ armor: 1
 health: 320
 weapons: [
 	{
-		name: turret
+		name: orb1
 		x: 0
 		y: 4
 		rotate: false
@@ -31,6 +31,7 @@ weapons: [
 		}
 		shootEffect: none
 		shootSound: shootBig 
+		bullet: {
 		type: MissileBulletType
 		speed: 2
 		lifetime: 50
@@ -64,6 +65,7 @@ weapons: [
 		frontColor: c45f5f
 		backColor: bc5452
 		}
+	}
 ]
 research: tiir-vaak
 
