@@ -5,9 +5,9 @@ hovering: true
 hitSize: 7
 engineOffset: 8
 engineSize: 3
-speed: 4
+speed: 4.5
 accel: 0.2
-rotateSpeed: 2.5
+rotateSpeed: 3
 armor: 1
 health: 320
 weapons: [
@@ -38,7 +38,7 @@ weapons: [
 		damage: 50
 		hitShake: 1
 		frontColor: c45f5f
-		backColor: 3f4049
+		backColor: bc5452
 		hittable: false
 		despawnEffect: blockExplosionSmoke
 		hitEffect: blockExplosionSmoke
@@ -52,7 +52,7 @@ weapons: [
 			particles: 10
 			sizeFrom: 4
 			sizeTo: 2
-			region: particle
+			region: shape-3
 			spin: 3
 			}
 		trailInterval: 0
