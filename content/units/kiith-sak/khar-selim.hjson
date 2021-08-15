@@ -1,18 +1,21 @@
 name: Khar-Selim
-controller: FlyingAI
 type: flying
+flying: true
 hovering: true
 hitSize: 7
 engineOffset: 8
 engineSize: 3
 speed: 4.5
 accel: 0.2
+drag: 0.01
 rotateSpeed: 3
+controller: FlyingAI
 armor: 1
 health: 320
+lowAltittude: true
 weapons: [
 	{
-		name: orb1
+		name: orbl
 		x: 0
 		y: 4
 		rotate: false
