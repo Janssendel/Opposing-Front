@@ -31,7 +31,6 @@ weapons: [
 		}
 		shootEffect: none
 		shootSound: shootBig 
-		{
 		type: MissileBulletType
 		speed: 2
 		lifetime: 50
@@ -54,6 +53,7 @@ weapons: [
 			sizeTo: 2
 			region: particle
 			spin: 3
+			}
 		trailInterval: 0
 		trailLength: 5
 		trailRotation: true
@@ -64,8 +64,6 @@ weapons: [
 		frontColor: c45f5f
 		backColor: bc5452
 		}
-	}
-}
 ]
 research: tiir-vaak
 
