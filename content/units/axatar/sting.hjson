@@ -32,15 +32,23 @@ weapons: [
 		lifetime: 50
 		damage: 50
 		hitShake: 1
-		frontColor: 84f491
-		backColor: 73d188
+		frontColor: c0ecff
+		backColor: 87ceeb
 		hittable: false
 		despawnEffect: blockExplosionSmoke
 		hitEffect: blockExplosionSmoke
 		homingPower: 4
 		height: 4
 		width: 2
-		trailEffect:  electrified
+		trailEffect:  {
+			type: ParticleEffect
+			colorFrom: 87ceeb
+			colorTo: 3f4049
+			particles: 10
+			sizeFrom: 2
+			sizeTo: 1
+			region: particle
+			spin: 3
 		}
 	}
 ]
