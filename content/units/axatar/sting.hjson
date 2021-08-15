@@ -9,7 +9,7 @@ armor: 1
 speed: 4
 accel: 0.2
 drag: 0.01
-rotateSpeed: 2.5
+rotateSpeed: 3
 engineOffset: 7
 engineSize: 3
 circleTarget: true
@@ -49,6 +49,7 @@ weapons: [
 			sizeTo: 1
 			region: particle
 			spin: 3
+			}
 		}
 	}
 ]
