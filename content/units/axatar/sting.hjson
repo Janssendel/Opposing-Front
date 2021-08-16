@@ -7,7 +7,7 @@ health: 125
 armor: 1
 speed: 4
 accel: 0.3
-drag: 0.1
+drag: 0.001
 rotateSpeed: 3
 engineOffset: 7
 engineSize: 3
