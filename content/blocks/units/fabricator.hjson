@@ -24,7 +24,7 @@ plans: [
 ]
 requirements: [
 	plasteel/30
-	plastatnium/25
+	plastanium/25
 ]
 research: plasteel
 category: unit
