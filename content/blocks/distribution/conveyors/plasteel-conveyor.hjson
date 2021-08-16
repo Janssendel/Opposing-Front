@@ -1,5 +1,4 @@
 type: Conveyor
-description: Plasteel Conveyor . Faster than the Titanium conveyor and relativly strong .
 health: 240
 category: distribution
 requirements: [
