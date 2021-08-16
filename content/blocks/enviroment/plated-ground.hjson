@@ -1,3 +1,4 @@
 type: Floor
 variants: 1
 name: Plated Ground
+speedMultiplier: 1.2
