@@ -2,7 +2,7 @@ name: Fabricator
 type: UnitFactory
 size: 3
 power: {
-	power: 0.8
+	power: 1
 }
 plans: [
 	{
