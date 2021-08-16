@@ -4,7 +4,6 @@ size: 3
 power: {
 	power: 0.8
 }
-capacities: 2
 plans: [
 	{
 		unit: sting
