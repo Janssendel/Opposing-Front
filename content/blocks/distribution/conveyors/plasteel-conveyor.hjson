@@ -6,6 +6,6 @@ requirements: [
 	plasteel/1
 	copper/5
 ]
-speed: 1
+speed: 0.14
 research: plasteel
-displayedSpeed: 0.8
+displayedSpeed: 0.0.16
