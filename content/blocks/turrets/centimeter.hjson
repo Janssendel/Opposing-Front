@@ -16,8 +16,8 @@ shootType: {
 	damage: 50
 	lightningColor: 2cfbbf
 	status: electrified
+	hitEffect: electrified
 }
-hitEffect: electrified
 research: plasteel
 category: turret
 requirements: [
