@@ -9,7 +9,7 @@ shootEffect: none
 smokeEffect: none
 shootSound: artillery
 shootType: {
-	type: MissileBulletType: 
+	type: MissileBulletType
 	speed: 1.5
 	drag: 0.01
 	maxRange: 240
