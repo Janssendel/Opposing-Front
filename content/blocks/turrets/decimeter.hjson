@@ -3,17 +3,21 @@ name: Decimeter
 health: 1250
 size: 2
 rotateSpeed: 12.5
-maxRange: 240
 powerUse: 120
 reload: 45
 shootEffect: none
 smokeEffect: none
 shootSound: artillery
+shots: 3
+spacing: 5
+inaccuracy: 4
 shootType: {
 	type: MissileBulletType
 	speed: 1.5
 	drag: 0.01
 	damage: 250
+	speed: 2
+	lifetime: 120
 	absorbable: false
 	reflectable: false
 	hittable: true
