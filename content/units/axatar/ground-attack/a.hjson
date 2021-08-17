@@ -2,9 +2,9 @@ name: Cicada
 type: mech
 hitsize: 3
 canBoost: true
-boostMultiplier: 1
+boostMultiplier: 2
 speed: 0.8
-accel: 0.1
+accel: 0.8
 drag: 0.8
 rotateSpeed: 3.2
 baseRotateSpeed: 6.0
@@ -28,9 +28,10 @@ weapons: [
 		shootSound: shootBig
 		recoil: 0.20
 		shake: 1
-		bullet: fireball
+		bullet: stantdardIncendiary
 	}
 ]
+research: farbicator
 
 		
 		
