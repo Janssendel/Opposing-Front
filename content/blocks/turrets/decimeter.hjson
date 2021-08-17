@@ -31,7 +31,6 @@ shootType: {
 		region:shape-3
 	}
 	trailLength: 3
-	scaleVelocity: true
 	knockback: 0.2
 	despawnEffect: {
 		type: ParticleEffect
