@@ -68,3 +68,4 @@ shootType: {
 	status: slow
 	statusDuration: 60
 }
+category: turret
