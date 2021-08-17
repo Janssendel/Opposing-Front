@@ -21,6 +21,14 @@ plans: [
 			silicon/15
 		]
 	}
+	{
+		unit: a
+		time: 840
+		requirements: [
+			plasteel/15
+			silicon/20
+		]
+	}
 ]
 requirements: [
 	plasteel/30
