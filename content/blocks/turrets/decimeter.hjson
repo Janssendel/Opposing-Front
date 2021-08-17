@@ -10,10 +10,11 @@ smokeEffect: none
 shootSound: artillery
 shots: 3
 inaccuracy: 4
+range: 240
 shootType: {
 	type: MissileBulletType
 	speed: 1.5
-	damage: 250
+	damage: 100
 	speed: 2
 	lifetime: 120
 	absorbable: false
