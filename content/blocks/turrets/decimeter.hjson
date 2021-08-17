@@ -9,7 +9,6 @@ shootEffect: none
 smokeEffect: none
 shootSound: artillery
 shots: 3
-spacing: 5
 inaccuracy: 4
 shootType: {
 	type: MissileBulletType
@@ -76,3 +75,4 @@ requirements: [
 	titanium/50
 	plastanium/15
 ]
+research: centimeter
