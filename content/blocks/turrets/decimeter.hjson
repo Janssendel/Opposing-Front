@@ -1,4 +1,4 @@
-type: PowerTurret
+type: BaseTurret
 name: Decimeter
 health: 1250
 size: 2
@@ -62,7 +62,6 @@ shootType: {
 	backColor: 73d188
 	height: 5
 	width: 5
-	sprite: shell
 	frontRegion: shell
 	backRegion: shell-back
 	impact: true
