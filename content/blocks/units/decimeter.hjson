@@ -1,0 +1,71 @@
+type: BaseTurret
+name: Decimeter
+health: 1250
+size: 2
+rotateSpeed: 12.5
+maxRange: 240
+powerUse: 120
+reload: 45
+shootEffect: none
+smokeEffect: none
+shootSound: artillery
+shootType: {
+	type: MissileBulletType
+	speed: 1.5
+	drag: 0.01
+	damage: 250
+	absorbable: false
+	reflectable: false
+	hittable: true
+	pierce: true
+	pierceBuilding: true
+	pierceCap: 2
+	trailEffect: {
+		type: ParticleEffect
+		colorFrom: 73d188
+		colorTo: 3f4049
+		particles: 10
+		sizeFrom: 4
+		sizeTo: 0
+		spin: 1
+		region:shape-3
+	}
+	trailLength: 3
+	scaleVelocity: true
+	knockback: 0.2
+	despawnEffect: {
+		type: ParticleEffect
+		colorFrom: 73d188
+		colorTo: 3f4049
+		particles: 10
+		sizeFrom: 4
+		sizeTo: 0
+		spin: 1
+		region:shape-3
+	}
+	hitEffect: {
+		type: ParticleEffect
+		colorFrom: 73d188
+		colorTo: 3f4049
+		particles: 10
+		sizeFrom: 4
+		sizeTo: 0
+		spin: 1
+		region:shape-3
+	}
+	homingPower: 4
+	homingDelay: 2
+	homingRange: 120
+	hitShake: 0.5
+	lightColor: 73d188
+	frontColor: 84f491
+	backColor: 73d188
+	height: 5
+	width: 5
+	frontRegion: shell
+	backRegion: shell-back
+	impact: true
+	status: slow
+	statusDuration: 60
+}
+category: turret
