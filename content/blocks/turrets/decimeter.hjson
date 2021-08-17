@@ -4,18 +4,18 @@ health: 1250
 size: 2
 rotateSpeed: 12.5
 powerUse: 120
-reload: 45
+reload: 60
 shootEffect: none
 smokeEffect: none
 shootSound: artillery
 shots: 3
 inaccuracy: 4
-range: 240
+range: 360
 shootType: {
 	type: MissileBulletType
 	speed: 1.5
-	damage: 100
-	speed: 2
+	damage: 250
+	speed: 3
 	lifetime: 120
 	absorbable: false
 	reflectable: false
