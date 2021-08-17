@@ -13,16 +13,12 @@ inaccuracy: 4
 shootType: {
 	type: MissileBulletType
 	speed: 1.5
-	drag: 0.01
 	damage: 250
 	speed: 2
 	lifetime: 120
 	absorbable: false
 	reflectable: false
 	hittable: true
-	pierce: true
-	pierceBuilding: true
-	pierceCap: 2
 	trailEffect: {
 		type: ParticleEffect
 		colorFrom: 73d188
