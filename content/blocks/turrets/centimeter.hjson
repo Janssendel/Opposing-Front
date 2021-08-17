@@ -4,7 +4,7 @@ health: 400
 size: 1
 rotateSpeed: 15
 range: 128
-powerUse: 40
+powerUse: 19
 reload: 15
 shootEffect: none
 smokeEffect: none

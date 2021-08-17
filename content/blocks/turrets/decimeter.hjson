@@ -3,7 +3,7 @@ name: Decimeter
 health: 1250
 size: 2
 rotateSpeed: 12.5
-powerUse: 120
+powerUse: 30
 reload: 60
 shootEffect: none
 smokeEffect: none
