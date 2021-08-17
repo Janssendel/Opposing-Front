@@ -1,4 +1,4 @@
-type: BaseTurret
+type: PowerTurret
 name: Decimeter
 health: 1250
 size: 2
@@ -69,3 +69,8 @@ shootType: {
 	statusDuration: 60
 }
 category: turret
+requirements: [
+	plasteel/30
+	titanium/50
+	plastanium/15
+]
