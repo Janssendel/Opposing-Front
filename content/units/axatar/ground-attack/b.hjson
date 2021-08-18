@@ -18,7 +18,7 @@ weapons: [
 		name: weaponB
 		x: 14
 		y: 0
-		ejectEffect: casing 2
+		ejectEffect: casing2
 		reload: 60
 		top: false
 		shots: 14
