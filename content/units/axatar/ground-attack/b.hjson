@@ -1,0 +1,73 @@
+name: Bee
+type: mech
+hitsize: 3
+canBoost: true
+boostMultiplier: 2
+speed: 1.2
+accel: 1
+drag: 0.5
+rotateSpeed: 3.2
+baseRotateSpeed: 6.0
+health: 245
+armor: 2
+engineOffset: 5
+engineSize: 2
+lightColor: ffffff
+weapons: [
+	{
+		name: weaponB
+		x: 14
+		y: 0
+		ejectEffect: casing 2
+		reload: 60
+		top: false
+		shots: 14
+		shotDelay: 2
+		shootSound : missile
+		shake: 0.3
+		rotate: false
+		recoil: 0.1
+		bullet: {
+		type: MissileBulletType
+		speed: 2
+		lifetime: 50
+		damage: 50
+		hitShake: 1
+		frontColor: c0ecff
+		backColor: 87ceeb
+		hittable: false
+		despawnEffect: blockExplosionSmoke
+		hitEffect: blockExplosionSmoke
+		homingPower: 4
+		height: 4
+		width: 2
+		trailEffect:  {
+			type: ParticleEffect
+			colorFrom: 87ceeb
+			colorTo: 3f4049
+			particles: 10
+			sizeFrom: 4
+			sizeTo: 2
+			region: particle
+			spin: 3
+			}
+		}
+	}
+	{
+		name: weaponA
+		x: 6
+		y: 0
+		top: true
+		ejectEffect: casing1
+		reload: 60
+		shots: 4
+		rotate: false
+		shotDelay: 4
+		inaccuracy: 4
+		shootSound: shootBig
+		recoil: 0.20
+		shake: 1
+		bullet: standardIncendiary
+	}
+]
+research: a
