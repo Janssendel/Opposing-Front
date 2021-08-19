@@ -1,0 +1,25 @@
+name: Retrofitter
+size: 3
+health: 1000
+research: fabricator
+consumes: {
+	power: 12
+	items: {
+	items: [
+		plasteel/80
+		silicon/100
+		]
+	}
+}
+upgrades: [
+	[a, b]
+	[tiir-vaak, khar-selim]
+	[sting, bite]
+]
+requirements: [
+	plasteel/40
+	silicon/24
+	plastanium/34
+]
+category: units
+	
