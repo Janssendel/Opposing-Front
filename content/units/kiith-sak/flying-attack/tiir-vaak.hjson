@@ -1,0 +1,57 @@
+name: Tiir-Vaak
+controller: FlyingAI
+type: flying
+flying: true
+hitsize: 6
+armor: 1
+health: 100
+speed: 5
+accel: 0.1
+rotateSpeeed: 2.5
+engineOffset: 4
+engineSize: 2
+drag: 0.001
+lowAltittude: false
+weapons: [
+	{
+	name: gun2
+	x: 0
+	y: 0
+	alternate: true
+	shootEffect: none
+	smokeEffect: none
+	ejectEffect: casing1
+	shootSound: shootbig
+	rotate: false
+	shake: 0.5
+	reload: 40
+	bullet: {
+		type: MissileBulletType
+		speed: 1.5
+		lifetime: 80
+		damage: 40
+		trailEffect: {
+				type: ParticleEffect
+				colorFrom: c45f5f
+				colorTo: 3f4049
+				particles: 10
+				sizeFrom: 4
+				sizeTo: 1
+				region: shape-3
+				spin: 3
+				
+			}
+		trailInterval: 0
+		trailLength: 5
+		trailRotation: true
+		hittable: false
+		pierce: true
+		pierceBuilding: true
+		pierceCap: 3
+		frontColor: c45f5f
+		backColor: bc5452
+		}
+	}
+]
+research: sting
+	
