@@ -23,13 +23,15 @@ weapons: [
 		y: 0
 		top: false
 		rotate: false
-		reload: 30
-		shootSound: flame
-		inaccuracy: 3
-		recoil: 0.5
-		shots: 6
-		shotDelay: 5
-		ejectEffect: none
+		ejectEffect: casing1
+		reload: 60
+		shots: 4
+		rotate: false
+		shotDelay: 4
+		inaccuracy: 4
+		shootSound: shootBig
+		recoil: 1
+		shake: 1
 		bullet: standardIncendiaryBig
 		}
 ]
