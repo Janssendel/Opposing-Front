@@ -22,36 +22,15 @@ weapons: [
 		x: 8
 		y: 0
 		top: false
-		rotate: true
+		rotate: false
 		reload: 30
 		shootSound: flame
 		inaccuracy: 3
 		recoil: 0.5
 		shots: 6
-		bullet: {
-			type: FireBulletType
-			damage: 40
-			speed: 3
-			range: 60
-			lifetime: 20
-			height: 1
-			width: 1
-			colorFrom: ffffff
-			colorMid: ef806c
-			colorTo: c45f5f
-			radius: 4
-			velMin: 1.6
-			velMax: 3
-			hittable: false
-			reflectable: false
-			absorbable: true
-			makeFire: true
-			trailEffect: ballfire
-			incendAmount: 1
-			incendSpread: 0.8
-			incendChance: 4
-			lightColor: c45f5f
-			hitAir: true
+		shotDelay: 5
+		bullet: pyraFlame
+			
 		}
 	}
 ]
