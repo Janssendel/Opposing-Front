@@ -53,7 +53,7 @@ weapons: [
 		}
 	}
 ]
-immunities: {burning}
+immunities: [burning]
 			
 			
 			
