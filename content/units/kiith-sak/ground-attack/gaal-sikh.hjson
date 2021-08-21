@@ -1,2 +1,17 @@
 type: legs
 hitsize: 8
+allowLegStep: true
+groundLayer: 75
+visualElevation: 1
+health: 600
+armor: 10
+speed: 0.7
+rotateSpeed: 2.2
+legCount: 8
+legLength: 8
+legBaseOffset: 8
+legExtension: 0
+legSplashDamage: 1
+legSplashRange: 1
+maxStretch: 0
+

@@ -8,7 +8,7 @@ accel: 0.8
 drag: 0.8
 rotateSpeed: 3.2
 baseRotateSpeed: 6.0
-health: 245
+health: 300
 armor: 2
 engineOffset: 4
 engineSize: 3
