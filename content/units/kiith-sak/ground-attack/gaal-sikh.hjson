@@ -35,4 +35,3 @@ weapons: [
 		bullet: standardIncendiaryBig
 		}
 ]
-immunities: [burning]

@@ -28,7 +28,7 @@ weapons: [
 		shootSound: shootBig
 		recoil: 0.20
 		shake: 1
-		bullet: standardIncendiary
+		bullet: standardDense
 	}
 ]
 research: fabricator
