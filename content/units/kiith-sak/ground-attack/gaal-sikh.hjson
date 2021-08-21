@@ -29,7 +29,8 @@ weapons: [
 		recoil: 0.5
 		shots: 6
 		shotDelay: 5
-		bullet: pyraFlame
+		ejectEffect: none
+		bullet: damageLighting
 		}
 ]
 immunities: [burning]
