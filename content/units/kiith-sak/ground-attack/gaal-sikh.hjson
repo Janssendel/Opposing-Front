@@ -14,7 +14,8 @@ legBaseOffset: 8
 legExtension: 2
 legSplashDamage: 1
 legSplashRange: 1
-rotateShootingShooting: true
+maxStretch: 3
+rotateShooting: true
 lightColor: c45f5f
 weapons: [
 	{
@@ -41,7 +42,6 @@ weapons: [
 			radius: 4
 			velMin: 1.6
 			velMax.3
-			trailEffect: ballfire
 			hittable: false
 			reflectable: false
 			absorbable: true
@@ -53,7 +53,7 @@ weapons: [
 		}
 	}
 ]
-immunities: {burning}
+immunities: [burning]
 			
 			
 			
