@@ -15,7 +15,6 @@ legExtension: 2
 legSplashDamage: 1
 legSplashRange: 1
 maxStretch: 3
-rotateShooting: true
 lightColor: c45f5f
 weapons: [
 	{
@@ -46,6 +45,7 @@ weapons: [
 			reflectable: false
 			absorbable: true
 			makeFire: true
+			trailEffect: ballfire
 			incendAmount: 1
 			incendSpread: 0.8
 			incendChance: 4
@@ -53,7 +53,7 @@ weapons: [
 		}
 	}
 ]
-immunities: [burning]
+immunities: {burning}
 			
 			
 			
