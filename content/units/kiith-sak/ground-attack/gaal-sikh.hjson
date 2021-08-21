@@ -40,7 +40,7 @@ weapons: [
 			colorTo: c45f5f
 			radius: 4
 			velMin: 1.6
-			velMax.3
+			velMax: 3
 			hittable: false
 			reflectable: false
 			absorbable: true
