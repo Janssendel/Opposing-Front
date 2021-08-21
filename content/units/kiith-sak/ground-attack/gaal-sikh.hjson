@@ -30,7 +30,7 @@ weapons: [
 		shots: 6
 		shotDelay: 5
 		ejectEffect: none
-		bullet: damageLighting
+		bullet: damageLightning
 		}
 ]
 immunities: [burning]
