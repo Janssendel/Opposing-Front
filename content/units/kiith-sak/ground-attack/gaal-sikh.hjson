@@ -11,10 +11,10 @@ rotateSpeed: 2.2
 legCount: 8
 legLength: 8
 legBaseOffset: 8
-legExtension: 2
+legExtension: -2
 legSplashDamage: 1
 legSplashRange: 1
-maxStretch: 3
+maxStretch: 2
 lightColor: c45f5f
 weapons: [
 	{
