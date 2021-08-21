@@ -1,0 +1,5 @@
+name: Helix Repair
+damage: -100
+reloadMultiplier: 1
+speedMultiplier: 0.2
+damageMultiplier: 1.1
