@@ -32,6 +32,7 @@ weapons: [
 			type: FireBulletType
 			damage: 40
 			speed: 3
+			range: 60
 			lifetime: 20
 			height: 1
 			width: 1
@@ -50,6 +51,7 @@ weapons: [
 			incendSpread: 0.8
 			incendChance: 4
 			lightColor: c45f5f
+			hitAir: true
 		}
 	}
 ]
