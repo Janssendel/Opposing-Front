@@ -31,6 +31,5 @@ weapons: [
 		shotDelay: 5
 		bullet: pyraFlame
 		}
-	}
 ]
 immunities: [burning]
