@@ -1,5 +1,5 @@
 name: Upgrader
-size: 3
+size: 5
 health: 1000
 research: fabricator
 consumes: {
