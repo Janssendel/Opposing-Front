@@ -1,4 +1,5 @@
 type: legs
+name: Gaal-Sikh
 hitsize: 8
 allowLegStep: true
 groundLayer: 75
