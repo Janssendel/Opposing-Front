@@ -11,7 +11,7 @@ rotateSpeed: 2.2
 legCount: 8
 legLength: 8
 legBaseOffset: 8
-legExtension: 0
+legExtension: 1
 legSplashDamage: 1
 legSplashRange: 1
 maxStretch: 0
