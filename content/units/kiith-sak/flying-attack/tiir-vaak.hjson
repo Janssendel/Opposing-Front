@@ -2,26 +2,25 @@ name: Tiir-Vaak
 controller: FlyingAI
 type: flying
 flying: true
-hitsize: 6
+hitsize: 4
 armor: 1
-health: 100
+health: 200
 speed: 5
 accel: 0.1
 rotateSpeeed: 2.5
-engineOffset: 4
-engineSize: 2
+engineOffset: 3
+engineSize: 1
 drag: 0.001
 lowAltittude: false
 weapons: [
 	{
 	name: gun2
 	x: 0
-	y: 0
+	y: 2
 	alternate: true
 	shootEffect: none
 	smokeEffect: none
-	ejectEffect: casing1
-	shootSound: shootbig
+	shootSound: shootBig
 	rotate: false
 	shake: 0.5
 	reload: 40
