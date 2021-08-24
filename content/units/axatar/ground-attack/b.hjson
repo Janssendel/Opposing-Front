@@ -28,28 +28,28 @@ weapons: [
 		rotate: false
 		recoil: 0.1
 		bullet: {
-		type: MissileBulletType
-		speed: 3
-		lifetime: 50
-		damage: 50
-		hitShake: 1
-		frontColor: c0ecff
-		backColor: 87ceeb
-		hittable: false
-		despawnEffect: blockExplosionSmoke
-		hitEffect: blockExplosionSmoke
-		homingPower: 4
-		height: 4
-		width: 2
-		trailEffect:  {
-			type: ParticleEffect
-			colorFrom: 87ceeb
-			colorTo: 3f4049
-			particles: 10
-			sizeFrom: 4
-			sizeTo: 2
-			region: particle
-			spin: 3
+			type: MissileBulletType
+			speed: 3
+			lifetime: 50
+			damage: 12
+			hitShake: 1
+			frontColor: c0ecff
+			backColor: 87ceeb
+			hittable: false
+			despawnEffect: blockExplosionSmoke
+			hitEffect: blockExplosionSmoke
+			homingPower: 4
+			height: 4
+			width: 2
+			trailEffect:  {
+				type: ParticleEffect
+				colorFrom: 87ceeb
+				colorTo: 3f4049
+				particles: 10
+				sizeFrom: 4
+				sizeTo: 2
+				region: particle
+				spin: 3
 			}
 		}
 	}

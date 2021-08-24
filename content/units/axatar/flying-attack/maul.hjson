@@ -1,0 +1,51 @@
+name: Maul
+hitsize: 7
+flying: true
+type: true
+armor: 3
+health: 930
+speed: 3
+accel: 0.2
+drag: 0.03
+rotateSpeed: 2.3
+lowAltittude: true
+weapons: [
+	{
+		name: weaponB
+		x: 0
+		y: 0
+		reload: 40
+		top: true
+		shots: 2
+		shotDelay: 2
+		shootSound : missile
+		shake: 0.3
+		recoil: 1
+		bullet: {
+			type: MissileBulletType
+			speed: 3
+			lifetime: 50
+			damage: 100
+			hitShake: 1
+			frontColor: c0ecff
+			backColor: 87ceeb
+			hittable: false
+			despawnEffect: blockExplosionSmoke
+			hitEffect: blockExplosionSmoke
+			homingPower: 4
+			height: 8
+			width: 6
+			trailEffect:  {
+				type: ParticleEffect
+				colorFrom: 87ceeb
+				colorTo: 3f4049
+				particles: 10
+				sizeFrom: 4
+				sizeTo: 2
+				region: particle
+				spin: 3
+			}
+		}
+	}
+]
+research: bite
