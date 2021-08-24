@@ -9,7 +9,6 @@ accel: 0.2
 drag: 0.03
 rotateSpeed: 2.3
 lowAltittude: true
-canBoost: true
 engineOffset: 7
 engineSize: 3
 weapons: [
