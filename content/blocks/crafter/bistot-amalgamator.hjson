@@ -1,0 +1,41 @@
+name: Bistot Amalgamator
+size: 2
+hasPower: true
+hasLiquids: false
+hasItems: true
+craftTime: 120
+craftEffect:{
+	type: ParticleEffect
+	colorFrom: ffffff
+	colorTo: 858999
+	particles: 10
+	cone: 360
+	lenth: 10
+	spin: 50
+	sizeFrom: 2
+	sizeTo: 0
+	lenFrom: 1
+	lenTo: 2
+	strokeFrom: 4
+	strokeTo: 2
+	lifetime: 25
+}
+consumes: {
+	power: 40
+	items: {
+		items: [
+		silicon/2
+		metaglass/1
+		]
+		}		
+	}
+requirements: [
+	plasteel/10
+	copper/25
+	titanium: 30
+]
+category: crafting
+research: plasteel-compressor
+outputItem: bistot/2
+buildVisibility: shown
+type: genericCrafter
