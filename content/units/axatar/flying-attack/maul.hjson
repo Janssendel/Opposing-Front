@@ -1,7 +1,7 @@
 name: Maul
 hitsize: 7
 flying: true
-type: true
+type: flying
 armor: 3
 health: 930
 speed: 3
