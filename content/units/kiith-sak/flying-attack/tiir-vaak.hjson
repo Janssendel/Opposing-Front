@@ -8,7 +8,7 @@ health: 200
 speed: 5
 accel: 0.1
 rotateSpeeed: 2.5
-engineOffset: 3
+engineOffset: 4
 engineSize: 1
 drag: 0.001
 lowAltittude: false
@@ -16,7 +16,7 @@ weapons: [
 	{
 	name: gun2
 	x: 0
-	y: 2
+	y: 3
 	alternate: true
 	shootEffect: none
 	smokeEffect: none
