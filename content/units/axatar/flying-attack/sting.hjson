@@ -32,7 +32,7 @@ weapons: [
 		splashDamageRadius: 24
 		frontColor: c0ecff
 		backColor: 87ceeb
-		despawnEffect: explocion
+		despawnEffect: blastExplosion
 		homingPower: 0.03
 		homingRange: 40
 		height: 8
