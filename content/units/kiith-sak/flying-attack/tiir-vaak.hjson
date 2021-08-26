@@ -2,15 +2,15 @@ name: Tiir-Vaak
 controller: FlyingAI
 type: flying
 flying: true
-hitsize: 4
+hitsize: 8
 armor: 1
-health: 200
-speed: 4
+health: 280
+speed: 3
 accel: 0.2
 rotateSpeeed: 2.5
 engineOffset: 4
 engineSize: 1
-drag: 0.009
+drag: 0.01
 lowAltittude: false
 weapons: [
 	{
@@ -28,22 +28,21 @@ weapons: [
 		type: MissileBulletType
 		speed: 1.5
 		lifetime: 80
-		damage: 40
+		damage: 32
 		trailEffect: {
 				type: ParticleEffect
 				colorFrom: c45f5f
 				colorTo: 3f4049
-				particles: 10
+				particles: 4
 				sizeFrom: 4
 				sizeTo: 1
 				region: shape-3
 				spin: 3
 				
 			}
-		trailInterval: 0
+		trailInterval: 1
 		trailLength: 5
 		trailRotation: true
-		hittable: false
 		pierce: true
 		pierceBuilding: true
 		pierceCap: 3
