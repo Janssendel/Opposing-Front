@@ -24,7 +24,7 @@ shootType: {
 	length: 320
 	fadeTime: 15
 	colors: [62ae7f, 73d188, 84f491, ffffff]
-	tscale: [1.0, 0.8, 0.6, 0.4, 0.2]
+	tscale: [0.8, 0.6, 0.4, 0.2, 0.1]
 	continuous: true
 }
 category: turret
