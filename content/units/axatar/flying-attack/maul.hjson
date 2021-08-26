@@ -36,7 +36,7 @@ weapons: [
 			frontColor: c0ecff
 			backColor: 87ceeb
 			hittable: false
-			despawnEffect: massiveExplocion
+			despawnEffect: massiveExplosion
 			homingPower: 0.08
 			height: 12
 			width: 8
