@@ -1,14 +1,14 @@
 name: Cicada
 type: mech
-hitsize: 3
+hitsize: 8
 canBoost: true
 boostMultiplier: 2
 speed: 0.8
-accel: 0.8
-drag: 0.8
+accel: 0.6
+drag: 0.6
 rotateSpeed: 3.2
 baseRotateSpeed: 6.0
-health: 300
+health: 360
 armor: 2
 engineOffset: 4
 engineSize: 3
@@ -16,17 +16,18 @@ lightColor: ffffff
 weapons: [
 	{
 		name: weaponA
-		x: 6
+		x: 7
 		y: 0
 		top: false
-		ejectEffect: casing1
-		reload: 60
+		ejectEffect: casing2
+		reload: 75
 		shots: 4
 		rotate: false
-		shotDelay: 4
+		shotDelay: 5
 		inaccuracy: 4
+		xRand: 4
 		shootSound: shootBig
-		recoil: 0.20
+		recoil: 1
 		shake: 1
 		bullet: standardDense
 	}
