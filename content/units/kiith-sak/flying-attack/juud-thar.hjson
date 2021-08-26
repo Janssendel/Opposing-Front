@@ -47,9 +47,9 @@ weapons: [
 			timeDuration: 60
 			powerDamageScl: 20	
 			powerSclDecrease: 1
-			hitPowerEffect: 
+			hitPowerEffect: hitEmpSpark 
 			chainEffect: chainLightning
-			applyEffect: EmpLightinng
+			applyEffect: EmpLightning
 			hitUnits: true
 			unitDamageScl: 3
 			}
