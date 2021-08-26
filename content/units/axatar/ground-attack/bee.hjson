@@ -9,7 +9,7 @@ drag: 0.5
 rotateSpeed: 3.2
 baseRotateSpeed: 6.0
 health: 600
-armor: 1
+armor: 5
 engineOffset: 5
 engineSize: 2
 lightColor: ffffff
@@ -19,19 +19,23 @@ weapons: [
 		x: 12
 		y: 0
 		ejectEffect: casing2
-		reload: 120
+		reload: 100
 		top: false
-		shots: 14
+		shots: 6
 		shotDelay: 2
-		shootSound : missile
-		shake: 0.3
+		xRand: 6
+		innaccurasy: 5
+		shootSound: missile
+		shake: 1
 		rotate: false
-		recoil: 0.1
+		recoil: 1
 		bullet: {
 			type: MissileBulletType
 			speed: 3
 			lifetime: 50
-			damage: 12
+			damage: 9
+			splashDamage: 18
+			splashDamageRadius: 24
 			hitShake: 1
 			frontColor: c0ecff
 			backColor: 87ceeb
@@ -45,9 +49,9 @@ weapons: [
 				type: ParticleEffect
 				colorFrom: 87ceeb
 				colorTo: 3f4049
-				particles: 10
+				particles: 4
 				sizeFrom: 4
-				sizeTo: 2
+				sizeTo: 1
 				region: particle
 				spin: 3
 			}
