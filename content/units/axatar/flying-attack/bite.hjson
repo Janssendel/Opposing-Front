@@ -4,11 +4,11 @@ type: flying
 hovering: true
 flying: true
 hitSize: 8
-health: 340
-armor: 2
-speed: 4
+health: 420
+armor: 3
+speed: 3
 accel: 0.5
-drag: 0.01
+drag: 0.02
 rotateSpeed: 2.5
 engineOffset: 7
 engineSize: 3
@@ -35,7 +35,9 @@ weapons: [
 		type: BulletType
 		speed: 5
 		lifetime: 25
-		damage: 15
+		damage: 18
+		splashDamage: 9
+		splashDamageRadius: 48
 		hitEffect: plasticExplosionFlak
 		despawnEffect: plasticExplosion
 		status: blasted
