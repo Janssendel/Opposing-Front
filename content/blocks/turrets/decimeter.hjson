@@ -4,9 +4,11 @@ health: 1250
 size: 2
 rotateSpeed: 12.5
 powerUse: 30
-reload: 60
+reload: 200
 shootEffect: none
 smokeEffect: none
+shootSound: laserbig
+chargeSound: lasercharge2
 chargeTime: 10
 shootSound: artillery
 shots: 3
@@ -23,6 +25,7 @@ shootType: {
 	fadeTime: 15
 	colors: [62ae7f, 73d188, 84f491, ffffff]
 	tscale: [1.0, 0.8, 0.6, 0.4, 0.2]
+	continuous: true
 }
 category: turret
 requirements: [
