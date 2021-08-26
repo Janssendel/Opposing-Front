@@ -40,9 +40,7 @@ weapons: [
 			pierce: true
 			pierceBuilding: true
 			pierceCap: 2
-			frontColor: c45f5f
-			backColor: bc5452
-			radius: 16
+			radius: 32
 			timeIncrease: 1.2
 			timeDuration: 60
 			powerDamageScl: 20	
