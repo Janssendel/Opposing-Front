@@ -48,8 +48,8 @@ weapons: [
 			powerDamageScl: 20	
 			powerSclDecrease: 1
 			hitPowerEffect: 
-			chainEffect: chainLighting
-			applyEffect: EmpLighting
+			chainEffect: chainLightning
+			applyEffect: EmpLightinng
 			hitUnits: true
 			unitDamageScl: 3
 			}
