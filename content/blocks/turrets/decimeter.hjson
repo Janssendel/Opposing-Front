@@ -10,7 +10,6 @@ smokeEffect: none
 shootSound: laserbig
 chargeSound: lasercharge2
 chargeTime: 10
-shootSound: artillery
 shots: 3
 inaccuracy: 4
 range: 360
