@@ -39,8 +39,8 @@ weapons: [
 		type: MissileBulletType
 		speed: 3
 		lifetime: 50
-		damage: 16
-		splashDamage: 32
+		damage: 18
+		splashDamage: 18
 		splashDamageRadius: 32
 		hitShake: 1
 		frontColor: c45f5f
@@ -70,15 +70,16 @@ weapons: [
 		pierceCap: 3
 		frontColor: c45f5f
 		backColor: 3f4049
-		fragBullets: 4
+		fragBullets: 2
 		fragBullet:  {
 		      type: SapBulletType
 		      damage: 9
 		      length: 48
 		      shootEffect: shootLiquid
 		      hitEffect: hitLiquid
-		      color: 3f4049
+		      color: c45f5f
 		      knockback: -0.5
+		      sapStrength: 0
 		      }
 		}
 	}
