@@ -52,6 +52,7 @@ weapons: [
 			applyEffect: EmpLighting
 			hitUnits: true
 			unitDamageScl: 3
-	}
-]
+			}
+		}
+	]
 research: khar-selim
