@@ -7,63 +7,22 @@ powerUse: 30
 reload: 60
 shootEffect: none
 smokeEffect: none
+chargeTime: 10
 shootSound: artillery
 shots: 3
 inaccuracy: 4
 range: 360
 shootType: {
-	type: MissileBulletType
-	speed: 1.5
+	type: ContinuousLaserBulletType
 	damage: 250
-	speed: 3
 	lifetime: 120
 	absorbable: false
 	reflectable: false
 	hittable: true
-	trailEffect: {
-		type: ParticleEffect
-		colorFrom: 73d188
-		colorTo: 3f4049
-		particles: 10
-		sizeFrom: 4
-		sizeTo: 0
-		spin: 1
-		region:shape-3
-	}
-	trailLength: 3
-	knockback: 0.2
-	despawnEffect: {
-		type: ParticleEffect
-		colorFrom: 73d188
-		colorTo: 3f4049
-		particles: 10
-		sizeFrom: 4
-		sizeTo: 0
-		spin: 1
-		region:shape-3
-	}
-	hitEffect: {
-		type: ParticleEffect
-		colorFrom: 73d188
-		colorTo: 3f4049
-		particles: 10
-		sizeFrom: 4
-		sizeTo: 0
-		spin: 1
-		region:shape-3
-	}
-	homingPower: 4
-	homingDelay: 2
-	homingRange: 120
-	hitShake: 0.5
-	lightColor: 73d188
-	frontColor: 84f491
-	backColor: 73d188
-	height: 5
-	width: 5
-	impact: true
-	status: slow
-	statusDuration: 60
+	length: 320
+	fadeTime: 15
+	colors: [62ae7f, 73d188, 84f491, ffffff]
+	tscale: [1.0, 0.8, 0.6, 0.4, 0.2]
 }
 category: turret
 requirements: [
