@@ -10,8 +10,8 @@ accel: 0.3
 drag: 0.01
 rotateSpeed: 3
 controller: FlyingAI
-armor: 1
-health: 890
+armor: 4
+health: 810
 lowAltittude: true
 weapons: [
 	{

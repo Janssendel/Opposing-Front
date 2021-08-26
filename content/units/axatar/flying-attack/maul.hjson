@@ -2,11 +2,11 @@ name: Maul
 hitsize: 7
 flying: true
 type: flying
-armor: 3
-health: 930
-speed: 3
-accel: 0.2
-drag: 0.03
+armor: 8
+health: 790
+speed: 2.9
+accel: 0.3
+drag: 0.05
 rotateSpeed: 2.3
 lowAltittude: true
 engineOffset: 7

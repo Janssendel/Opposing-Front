@@ -8,19 +8,19 @@ consumes: {
 	items: [
 		plasteel/80
 		silicon/100
+		bistot/50
 		]
 	}
 }
 upgrades: [
 	[a, b]
-	[tiir-vaak, khar-selim]
-	[sting, bite]
-	[khor-dav, gaal-sikh]
+	[khar-selim, juud-thar]
+	[bite, maul]
 ]
 requirements: [
-	plasteel/80
-	silicon/50
-	plastanium/60
+	plasteel/100
+	silicon/500
+	plastanium/600
 ]
 category: units
 type: Reconstructor

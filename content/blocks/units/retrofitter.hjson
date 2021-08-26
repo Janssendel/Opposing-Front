@@ -1,13 +1,13 @@
 name: Retrofitter
 size: 3
-health: 1000
+health: 460
 research: fabricator
 consumes: {
 	power: 12
 	items: {
 	items: [
 		plasteel/80
-		silicon/100
+		silicon/80
 		]
 	}
 }
@@ -18,8 +18,8 @@ upgrades: [
 ]
 requirements: [
 	plasteel/40
-	silicon/24
-	plastanium/34
+	silicon/240
+	plastanium/340
 ]
 category: units
 type: Reconstructor

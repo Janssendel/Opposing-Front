@@ -5,12 +5,12 @@ flying: true
 hitsize: 4
 armor: 1
 health: 200
-speed: 5
-accel: 0.1
+speed: 4
+accel: 0.2
 rotateSpeeed: 2.5
 engineOffset: 4
 engineSize: 1
-drag: 0.001
+drag: 0.009
 lowAltittude: false
 weapons: [
 	{

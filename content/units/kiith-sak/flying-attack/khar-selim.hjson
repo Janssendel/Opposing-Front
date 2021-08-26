@@ -5,17 +5,17 @@ hovering: true
 hitSize: 6
 engineOffset: 8
 engineSize: 2
-speed: 4.5
-accel: 0.2
-drag: 0.01
+speed: 2.9
+accel: 0.3
+drag: 0.06
 rotateSpeed: 3
 controller: FlyingAI
-armor: 1
-health: 320
+armor: 3
+health: 420
 lowAltittude: true
 weapons: [
 	{
-		name: 
+		name: orb1
 		x: 0
 		y: 7
 		rotate: false
