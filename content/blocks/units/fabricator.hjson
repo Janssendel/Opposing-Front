@@ -9,7 +9,7 @@ plans: [
 		unit: sting
 		time: 660
 		requirements: [
-			plasteel/10
+			titanium/10
 			silicon/30
 		]
 	}
@@ -18,11 +18,12 @@ plans: [
 		time: 720
 		requirements: [
 			plasteel/25
+			pyratite/10
 			silicon/15
 		]
 	}
 	{
-		unit: a
+		unit: cicada
 		time: 840
 		requirements: [
 			plasteel/15
@@ -31,8 +32,9 @@ plans: [
 	}
 ]
 requirements: [
-	plasteel/30
-	plastanium/25
+	plasteel/60
+	silicon/80
+	metaglass/40
 ]
 research: plasteel
 category: units
