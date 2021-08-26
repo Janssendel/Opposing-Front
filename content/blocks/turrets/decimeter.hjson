@@ -1,10 +1,11 @@
-type: PowerTurret
+type: LaserTurret 
 name: Decimeter
 health: 1250
 size: 2
-rotateSpeed: 12.5
+rotateSpeed: 2.5
+firingMoveFract: 1.9 
 powerUse: 30
-reload: 200
+reload: 420
 shootEffect: none
 smokeEffect: none
 shootSound: laserbig
@@ -16,7 +17,7 @@ range: 360
 shootType: {
 	type: ContinuousLaserBulletType
 	damage: 250
-	lifetime: 120
+	lifetime: 300
 	absorbable: false
 	reflectable: false
 	hittable: true
@@ -25,6 +26,8 @@ shootType: {
 	colors: [62ae7f, 73d188, 84f491, ffffff]
 	tscale: [0.8, 0.6, 0.4, 0.2, 0.1]
 	continuous: true
+	status: electrified
+
 }
 category: turret
 requirements: [
