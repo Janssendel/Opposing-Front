@@ -4,7 +4,7 @@ health: 1250
 size: 2
 rotateSpeed: 2.5
 firingMoveFract: 0.25
-shootDuration: 10
+shootDuration: 150
 powerUse: 30
 reload: 420
 shootEffect: none
