@@ -12,14 +12,14 @@ consumes: {
 	}
 }
 upgrades: [
-	[a, b]
+	[cicada, bee]
 	[tiir-vaak, khar-selim]
 	[sting, bite]
 ]
 requirements: [
-	plasteel/40
+	plasteel/80
 	silicon/240
-	plastanium/340
+	titanium/340
 ]
 category: units
 type: Reconstructor

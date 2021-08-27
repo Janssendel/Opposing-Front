@@ -1,6 +1,6 @@
 name: Upgrader
 size: 5
-health: 1000
+health: 1500
 research: fabricator
 consumes: {
 	power: 12
@@ -13,7 +13,7 @@ consumes: {
 	}
 }
 upgrades: [
-	[a, b]
+	[cicada, bee]
 	[khar-selim, juud-thar]
 	[bite, maul]
 ]
