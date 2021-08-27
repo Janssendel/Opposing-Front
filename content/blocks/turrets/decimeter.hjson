@@ -4,7 +4,7 @@ health: 1250
 size: 2
 rotateSpeed: 2.5
 firingMoveFract: 0.25
-shootDuration: 300
+shootDuration: 10
 powerUse: 30
 reload: 420
 shootEffect: none
@@ -18,7 +18,7 @@ range: 360
 shootType: {
 	type: ContinuousLaserBulletType
 	damage: 250
-	lifetime: 300
+	lifetime: 6
 	absorbable: false
 	reflectable: false
 	hittable: true
