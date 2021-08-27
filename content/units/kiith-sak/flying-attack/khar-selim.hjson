@@ -2,15 +2,15 @@ name: Khar-Selim
 type: flying
 flying: true
 hovering: true
-hitSize: 6
+hitSize: 16
 engineOffset: 8
 engineSize: 2
-speed: 2.9
+speed: 2.5
 accel: 0.3
 drag: 0.06
 rotateSpeed: 3
 controller: FlyingAI
-armor: 3
+armor: 4
 health: 420
 lowAltittude: true
 weapons: [
@@ -21,7 +21,6 @@ weapons: [
 		rotate: false
 		reload: 60
 		shots: 4
-		spacing: 1
 		inaccuracy: 2
 		shotDelay: 6
 		smokeEffect: {
@@ -40,7 +39,9 @@ weapons: [
 		type: MissileBulletType
 		speed: 3
 		lifetime: 50
-		damage: 50
+		damage: 18
+		splashDamage: 18
+		splashDamageRadius: 32
 		hitShake: 1
 		frontColor: c45f5f
 		backColor: bc5452
@@ -60,7 +61,7 @@ weapons: [
 			region: shape-3
 			spin: 3
 			}
-		trailInterval: 0
+		trailInterval: 1
 		trailLength: 5
 		trailRotation: true
 		hittable: false
@@ -69,6 +70,17 @@ weapons: [
 		pierceCap: 3
 		frontColor: c45f5f
 		backColor: 3f4049
+		fragBullets: 2
+		fragBullet:  {
+		      type: SapBulletType
+		      damage: 9
+		      length: 48
+		      shootEffect: shootLiquid
+		      hitEffect: hitLiquid
+		      color: c45f5f
+		      knockback: -0.5
+		      sapStrength: 0
+		      }
 		}
 	}
 ]

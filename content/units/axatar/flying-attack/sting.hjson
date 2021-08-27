@@ -2,50 +2,48 @@ type: flying
 name: Sting
 controller: FlyingAI
 flying: true
-hitSize: 5
-health: 125
-armor: 1
-speed: 4
-accel: 0.3
-drag: 0.001
+hitSize: 8
+health: 160
+speed: 3
+accel: 0.1
+drag: 0.01
 rotateSpeed: 3
 engineOffset: 7
 engineSize: 3
 circleTarget: true
 rotateShooting: true
-commandLimit: 9
+commandLimit: 5
 weapons: [
 	{
 	name: 1
 	x: 0
-	y: 0
+	y: 4
 	rotate: false
 	shootEffect: none
 	reload: 30
 	inaccuracy: 4
 	shootSound: shootBig
-	dpsEstimate: 100
 	bullet: {
 		type: MissileBulletType
 		speed: 2
 		lifetime: 50
-		damage: 50
-		hitShake: 1
+		damage: 18
+		splashDamage: 9
+		splashDamageRadius: 24
 		frontColor: c0ecff
 		backColor: 87ceeb
-		hittable: false
-		despawnEffect: blockExplosionSmoke
-		hitEffect: blockExplosionSmoke
-		homingPower: 4
-		height: 4
-		width: 2
+		despawnEffect: blastExplosion
+		homingPower: 0.03
+		homingRange: 40
+		height: 8
+		width: 4
 		trailEffect:  {
 			type: ParticleEffect
 			colorFrom: 87ceeb
 			colorTo: 3f4049
-			particles: 10
+			particles: 4
 			sizeFrom: 4
-			sizeTo: 2
+			sizeTo: 1
 			region: particle
 			spin: 3
 			}
