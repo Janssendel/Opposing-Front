@@ -3,7 +3,7 @@ name: Decimeter
 health: 1250
 size: 2
 rotateSpeed: 2.5
-firingMoveFract: 0
+firingMoveFract: 0.25
 shootDuration: 310
 powerUse: 30
 reload: 420
@@ -26,7 +26,7 @@ shootType: {
 	fadeTime: 15
 	colors: [62ae7f, 73d188, 84f491, ffffff]
 	tscale: [0.8, 0.6, 0.4, 0.2, 0.1]
-	continuous: true
+
 	status: electrified
 
 }
