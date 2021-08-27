@@ -3,8 +3,8 @@ name: Decimeter
 health: 1250
 size: 2
 rotateSpeed: 2.5
-firingMoveFract: 0.25
-shootDuration: 150
+firingMoveFract: 0
+shootDuration: 310
 powerUse: 30
 reload: 420
 shootEffect: none
@@ -18,7 +18,7 @@ range: 360
 shootType: {
 	type: ContinuousLaserBulletType
 	damage: 250
-	lifetime: 6
+	lifetime: 300
 	absorbable: false
 	reflectable: false
 	hittable: true
