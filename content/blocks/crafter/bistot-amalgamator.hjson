@@ -21,7 +21,7 @@ craftEffect:{
 	lifetime: 25
 }
 consumes: {
-	power: 40
+	power: 2
 	items: {
 		items: [
 		silicon/2
@@ -36,6 +36,6 @@ requirements: [
 ]
 category: crafting
 research: plasteel-compressor
-outputItem: bistot/2
+outputItem: bistot/1
 buildVisibility: shown
 type: genericCrafter

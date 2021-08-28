@@ -4,7 +4,7 @@ size: 2
 hasPower: true
 hasLiquids: false
 hasItems: true
-craftTime: 120
+craftTime: 90
 craftEffect:{
 	type: ParticleEffect
 	colorFrom: ffffff
@@ -22,11 +22,11 @@ craftEffect:{
 	lifetime: 25
 }
 consumes: {
-	power: 40
+	power: 1.7
 	items: {
 		items: [
-		plastanium/4
-		titanium/4
+		spore-pod/2
+		titanium/3
 		]
 		}		
 	}
@@ -36,7 +36,7 @@ requirements: [
 	graphite/15
 ]
 category: crafting
-research: alloy-smelter
-outputItem: plasteel/4
+research: spore-cultivator
+outputItem: plasteel/1
 buildVisibility: shown
 type: genericCrafter
