@@ -51,7 +51,7 @@ abilities: [
     reload: 180
     range: 56
     duration: 360
-    effect: opposing-front-fury
+    effect: fury
   }
 ]
 research: hornet
