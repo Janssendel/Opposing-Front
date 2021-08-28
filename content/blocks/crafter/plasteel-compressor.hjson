@@ -36,7 +36,7 @@ requirements: [
 	graphite/15
 ]
 category: crafting
-research: spore-cultivator
+research: cultivator
 outputItem: plasteel/1
 buildVisibility: shown
 type: genericCrafter
