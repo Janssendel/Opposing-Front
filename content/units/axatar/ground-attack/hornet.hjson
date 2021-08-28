@@ -68,7 +68,6 @@ weapons: [
 				region: particle
 				spin: 3
 			}
-		      }
 		}
 	}
 ]
