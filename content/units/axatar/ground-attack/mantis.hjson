@@ -51,8 +51,7 @@ abilities: [
     reload: 180
     range: 56
     duration: 360
-    status: opposing-front-fury
-    effect: explosion
+    effect: opposing-front-fury
   }
 ]
 research: hornet
