@@ -52,6 +52,7 @@ abilities: [
     range: 56
     duration: 360
     status: opposing-front-fury
+    effect: explosion
   }
 ]
 research: hornet
