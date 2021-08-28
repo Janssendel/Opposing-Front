@@ -51,7 +51,12 @@ abilities: [
     reload: 180
     range: 56
     duration: 360
-    effect: fury
+    effect: {
+    	name: Fury
+	healthMultiplier: 0.6
+	reloadMultiplier: 1.5
+	speedMultiplier: 1.5
+	}
   }
 ]
 research: hornet
