@@ -8,12 +8,12 @@ mineTier: 4
 mineSpeed: 4
 buildSpeed: 1
 speed: 1
-accel: 0.1
-drag: 0.5
+accel: 1
+drag: 0.3
 rotateSpeed: 3.2
 baseRotateSpeed: 6.0
-health: 1500
-armor: 12
+health: 1200
+armor: 9
 engineOffset: 8
 engineSize: 3
 lightColor: ffffff
@@ -23,7 +23,7 @@ weapons: [
 		x: 12
 		y: 0
 		ejectEffect: casing4
-		reload: 30
+		reload: 25
 		top: false
 		xRand: 3
 		inaccurasy: 10
@@ -32,32 +32,43 @@ weapons: [
 		rotate: false
 		recoil: 1
 		bullet: {
-			type: EMPBulletType
+			type: EmpBulletType
 			speed: 4
 			lifetime: 60
-      scaleVelocity: true
-			recoil: 0.1
+                        scaleVelocity: true
+			recoil: 0.2
 			damage: 9
-			splashDamage: 24
+			splashDamage: 36
 			splashDamageRadius: 48
+			healPercent: 3
 			hitShake: 1
 			frontColor: c0ecff
 			backColor: 87ceeb
 			hittable: false
 			hitEffect: none
-			homingPower: 4
+			despawnEffect: {
+				type: WaveEffect
+				sizeFrom: 46
+				sizeTo: 50
+				colorFrom: c0ecff
+				colorTo: 87ceeb
+				lifetime: 20
+				strokeFrom: 3
+				strokeTo: 0
+			}
 			height: 18
 			width: 9
 			trailEffect:  {
 				type: ParticleEffect
 				colorFrom: 87ceeb
 				colorTo: 3f4049
-				particles: 4
+				particles: 1
 				sizeFrom: 4
 				sizeTo: 1
 				region: particle
 				spin: 3
 			}
+		      }
 		}
 	}
 ]
