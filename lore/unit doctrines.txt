@@ -1,0 +1,17 @@
+Axatar Unit Draft: 
+[General doctrine of Axatar is more of a long-ranged , lengthy engagement , that often results in "trench warfare" , where both's sides efforts are slow , and to win , you must have better stuff than the enemy
+Flying:
+-Attack:
+Sting: Harassment & Suicide skirmish . Medium-ranged missile
+Bite: Anti-harassment and general multi-rounder. 2 guns that have frag ammo like scatters
+Maul: Attack&Defend . 1 large missile launcher that arcs like artillery , does not hit air targets
+Devour: Defender , has more of a support role that covers it's t5 counterpart. Multiple smaller guns that independently target from one another.  6 small guns that rapidly shoot at an enemy
+Swallow: Long range Attacker . 1 large artillery cannon as the main weapon and has 2 smaller guns that give limited capabilities for flak
+Ground: Long range Attacker that shoots an EMP that later frags into 6 other projectiles that burns the area near the EMP . has no secondary weapons
+Amputate: Medium range Defender . Has a shield and has 4 autotargetting continuous lasers . 
+Immolate: Medium range Attacker . Has a shield , and uses a medium ranged sapper that frags into flames.
+Liquidate: Long Range Attacker . Spits a single large puddle of slag that slowly damages the area of impact . Has a shield
+Pulverize: The T10 . Uses a long range laser that charges an and then fires a piercing beam . Has no shields . but can heal itself , slowly
+-(support and specialized flying tree not yet planned)
+
+ 

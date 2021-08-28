@@ -14,6 +14,8 @@ engineSize: 4
 weapons: [
 	{
 		name: weaponB
+		mirror: false
+		rotate: true
 		x: 0
 		y: 0
 		reload: 40
