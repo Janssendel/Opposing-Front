@@ -26,7 +26,7 @@ weapons: [
 		reload: 25
 		top: false
 		xRand: 3
-		inaccurasy: 10
+		inaccuracy: 10
 		shootSound: bang
 		shake: 1
 		rotate: false
@@ -37,7 +37,7 @@ weapons: [
 			lifetime: 60
                         scaleVelocity: true
 			recoil: 0.2
-			damage: 9
+			damage: 3
 			splashDamage: 36
 			splashDamageRadius: 48
 			healPercent: 3
@@ -45,16 +45,32 @@ weapons: [
 			frontColor: c0ecff
 			backColor: 87ceeb
 			hittable: false
-			hitEffect: none
-			despawnEffect: {
-				type: WaveEffect
-				sizeFrom: 46
-				sizeTo: 50
-				colorFrom: c0ecff
-				colorTo: 87ceeb
+			despawnHit: true
+			hitEffect: {
+				type: MultiEffect
 				lifetime: 20
-				strokeFrom: 3
-				strokeTo: 0
+				effects: [
+					{
+					type: WaveEffect
+					sizeFrom: 46
+					sizeTo: 50
+					colorFrom: c0ecff
+					colorTo: 87ceeb
+					lifetime: 20
+					strokeFrom: 3
+					strokeTo: 0
+					}
+					{
+					type: ParticleEffect
+					length: 0
+					colorFrom: 87ceeb
+					colorTo: 3f4049
+					particles: 1
+					sizeFrom: 4
+					sizeTo: 0
+					region: particle
+					}
+				]
 			}
 			height: 18
 			width: 9
@@ -66,7 +82,6 @@ weapons: [
 				sizeFrom: 4
 				sizeTo: 1
 				region: particle
-				spin: 3
 			}
 		}
 	}
@@ -74,7 +89,7 @@ weapons: [
 abilities: [
   {
     type: ShieldRegenFieldAbility
-    amount: 60
+    amount: 40
     max: 180
     reload: 360
     range: 48
