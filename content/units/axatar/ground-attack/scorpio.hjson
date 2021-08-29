@@ -19,7 +19,7 @@ health: 22000
 armor: 15
 lightColor: ffffff
 weapons: [
-	{
+		{
 		name: weaponB
 		x: 0
 		y: -16
@@ -30,78 +30,78 @@ weapons: [
 		shake: 3
 		recoil: -20
 		bullet: {
-		      type: ShrapnelBulletType
-		      length: 200
-		      width: 8
-		      damage: 860
-		      toColor: 87ceeb
-          recoil: 5
-	  }
-	}
-  {
+			  type: ShrapnelBulletType
+			  length: 200
+			  width: 8
+			  damage: 860
+			  toColor: 87ceeb
+			  recoil: 5
+			  }
+		}
+ 		{
 		name: weaponA
 		x: 0
 		y: -15
 		ejectEffect: none
 		shootSound: none
-    reload: 180
+	    	reload: 180
 		recoil: -16
 		bullet: {
-      type: BasicBulletType
-      instantDissapear: true
-      damage: 0
-      hitEffect: none
-      despawnEffect: none
-      }
-	}
-  {
+		      type: BasicBulletType
+		      instantDissapear: true
+		      damage: 0
+		      hitEffect: none
+		      despawnEffect: none
+		      }
+		}
+ 	  	{
 		name: weaponA
 		x: 0
 		y: -14
 		ejectEffect: none
 		shootSound: none
-    reload: 180
+   		reload: 180
 		recoil: -12
 		bullet: {
-      type: BasicBulletType
-      instantDissapear: true
-      damage: 0
-      hitEffect: none
-      despawnEffect: none
-      }
-	}
-  {
+		      type: BasicBulletType
+		      instantDissapear: true
+		      damage: 0
+		      hitEffect: none
+		      despawnEffect: none
+		      }
+		}
+ 		{
 		name: weaponA
 		x: 0
 		y: -13
 		ejectEffect: none
 		shootSound: none
-    reload: 180
+   		reload: 180
 		recoil: -8
 		bullet: {
-      type: BasicBulletType
-      instantDissapear: true
-      damage: 0
-      hitEffect: none
-      despawnEffect: none
-      }
-	}
-  {
+		      type: BasicBulletType
+		      instantDissapear: true
+		      damage: 0
+		      hitEffect: none
+		      despawnEffect: none
+		      }
+		}
+  		{
 		name: weaponA
 		x: 0
 		y: -12
 		ejectEffect: none
 		shootSound: none
-    reload: 180
+		reload: 180
 		recoil: -4
 		bullet: {
-      type: BasicBulletType
-      instantDissapear: true
-      damage: 0
-      hitEffect: none
-      despawnEffect: none
-      }
-	}
+		      type: BasicBulletType
+		      instantDissapear: true
+		      damage: 0
+		      hitEffect: none
+		      despawnEffect: none
+		      }
+		}
 ]
 abilities: [
   {
@@ -109,7 +109,6 @@ abilities: [
     amount: 25
     reload: 30
     range: 120
-	}
   }
 ]
 research: hornet
