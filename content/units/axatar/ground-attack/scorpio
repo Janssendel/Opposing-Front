@@ -1,0 +1,115 @@
+name: Scoprio
+description: Pew pew BAM
+type: legs
+legCount: 6
+legBaseOffset: 8
+legLength: 48
+legStepShake: 1
+
+hitSize: 48
+mineTier: 5
+mineSpeed: 26
+buildSpeed: 6
+speed: 0.6
+accel: 1
+drag: 0.2
+rotateSpeed: 2
+baseRotateSpeed: 6.0
+health: 22000
+armor: 15
+lightColor: ffffff
+weapons: [
+	{
+		name: weaponB
+		x: 0
+		y: -16
+		ejectEffect: none
+		reload: 180
+		top: true
+		shootSound: opposing-front-fuse_big
+		shake: 3
+		recoil: -20
+		bullet: {
+		      type: ShrapnelBulletType
+		      length: 200
+		      width: 8
+		      damage: 860
+		      toColor: 87ceeb
+          recoil: 5
+	  }
+	}
+  {
+		name: weaponA
+		x: 0
+		y: -15
+		ejectEffect: none
+		shootSound: none
+    reload: 180
+		recoil: -16
+		bullet: {
+      type: BasicBulletType
+      instantDissapear: true
+      damage: 0
+      hitEffect: none
+      despawnEffect: none
+      }
+	}
+  {
+		name: weaponA
+		x: 0
+		y: -14
+		ejectEffect: none
+		shootSound: none
+    reload: 180
+		recoil: -12
+		bullet: {
+      type: BasicBulletType
+      instantDissapear: true
+      damage: 0
+      hitEffect: none
+      despawnEffect: none
+      }
+	}
+  {
+		name: weaponA
+		x: 0
+		y: -13
+		ejectEffect: none
+		shootSound: none
+    reload: 180
+		recoil: -8
+		bullet: {
+      type: BasicBulletType
+      instantDissapear: true
+      damage: 0
+      hitEffect: none
+      despawnEffect: none
+      }
+	}
+  {
+		name: weaponA
+		x: 0
+		y: -12
+		ejectEffect: none
+		shootSound: none
+    reload: 180
+		recoil: -4
+		bullet: {
+      type: BasicBulletType
+      instantDissapear: true
+      damage: 0
+      hitEffect: none
+      despawnEffect: none
+      }
+	}
+]
+abilities: [
+  {
+    type: RepairFieldAbility
+    amount: 25
+    reload: 30
+    range: 120
+	}
+  }
+]
+research: hornet
