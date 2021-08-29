@@ -1,5 +1,5 @@
 name: Mantis
-description: A powerfull defencive mech that can leech health with its lasers, but is innefective against highly armored units. Significanly increases nearby unit's durability at the cost of speed and firerate.
+description: A powerfull defencive mech that can leech health with its spear-like lasers, but is innefective against highly armored units. Significanly increases nearby unit's durability at the cost of speed and firerate.
 type: mech
 hitSize: 36
 canBoost: true
@@ -37,20 +37,20 @@ weapons: [
 		      colors: [c0ecff, 87ceeb]
 		      healPercent: 8
 
-		      lightningSpacing: 10
+		      lightningSpacing: 12
 		      lightningDelay: 0.2
-		      lightningDamage: 9
-		      lightningLength: 6
+		      lightningDamage: 6
+		      lightningLength: 4
 		      lightningLengthRand: 3
 		      lightningColor: c0ecff
 		      
-		      fragCone: 1
+		      fragCone: 2
 		      fragBullets: 4
 		      fragBullet:{
 		      	type: SapBulletType
 			length: 220
-			damage: 30
-			sapStrength: 0.5
+			damage: 20
+			sapStrength: 0.2
 			lifetime: 10
 			color: c0ecff
 			}
@@ -60,20 +60,19 @@ weapons: [
 abilities: [
   {
     type: StatusFieldAbility
-    reload: 180
-    range: 56
-    duration: 640
+    reload: 90
+    range: 80
+    duration: 600
     effect: {
     	name: Aegis
 	healthMultiplier: 1.6
 	reloadMultiplier: 0.8
 	speedMultiplier: 0.8
-	effectChance: 0.02
+	effectChance: 0.01
 	effect: {
 	    type: ParticleEffect
-	    length: 5
 	    particles: 1
-	    lifetime: 120
+	    lifetime: 200
 	    sizeFrom: 6
 	    sizeTo: 0
 	    colorFrom: c0ecff
