@@ -1,19 +1,20 @@
 name: Mantis
+description: A powerfull defencive mech that can leech health with its lasers, but is innefective against highly armored units. Significanly increases nearby unit's durability at the cost of speed and firerate.
 type: mech
 hitSize: 36
 canBoost: true
-boostMultiplier: 1.8
+boostMultiplier: 1.5
 mineTier: 5
 mineSpeed: 6
 buildSpeed: 4
-speed: 1
+speed: 0.8
 accel: 1
 drag: 0.3
 rotateSpeed: 2
 baseRotateSpeed: 6.0
-health: 4800
+health: 4200
 armor: 12
-engineOffset: 16
+engineOffset: 24
 engineSize: 4
 lightColor: ffffff
 weapons: [
@@ -22,26 +23,37 @@ weapons: [
 		x: 12
 		y: 0
 		ejectEffect: none
-		reload: 45
+		reload: 40
 		top: false
 		inaccurasy: 6
 		shootSound: laser
 		shake: 2
 		recoil: 2
 		bullet: {
-      type: LaserBulletType
-      length: 220
-      width: 6
-      damage: 160
-      colors: [c0ecff, 87ceeb]
-      sapStrength: 0.2
-      
-      lightningSpacing: 4
-      lightningDelay: 0.1
-      lightningDamage: 9
-      lightningLength: 6
-      lightningLengthRand: 3
-      lightningColor: c0ecff
+		      type: LaserBulletType
+		      length: 220
+		      width: 6
+		      damage: 30
+		      colors: [c0ecff, 87ceeb]
+		      healPercent: 8
+
+		      lightningSpacing: 10
+		      lightningDelay: 0.2
+		      lightningDamage: 9
+		      lightningLength: 6
+		      lightningLengthRand: 3
+		      lightningColor: c0ecff
+		      
+		      fragCone: 1
+		      fragBullets: 4
+		      fragBullet:{
+		      	type: SapBulletType
+			length: 220
+			damage: 30
+			sapStrength: 0.5
+			lifetime: 10
+			color: c0ecff
+			}
 		}
 	}
 ]
@@ -50,12 +62,24 @@ abilities: [
     type: StatusFieldAbility
     reload: 180
     range: 56
-    duration: 360
+    duration: 640
     effect: {
-    	name: Fury
-	healthMultiplier: 0.6
-	reloadMultiplier: 1.5
-	speedMultiplier: 1.5
+    	name: Aegis
+	healthMultiplier: 1.6
+	reloadMultiplier: 0.8
+	speedMultiplier: 0.8
+	effectChance: 0.02
+	effect: {
+	    type: ParticleEffect
+	    length: 5
+	    particles: 1
+	    lifetime: 120
+	    sizeFrom: 6
+	    sizeTo: 0
+	    colorFrom: c0ecff
+	    colorTo: 87ceeb
+	    region: opposing-front-particle-shield
+	  }
 	}
   }
 ]
