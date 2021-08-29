@@ -5,7 +5,7 @@ hitSize: 36
 canBoost: true
 boostMultiplier: 1.5
 mineTier: 5
-mineSpeed: 6
+mineSpeed: 12
 buildSpeed: 4
 speed: 0.8
 accel: 1
