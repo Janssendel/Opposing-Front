@@ -8,7 +8,7 @@ accel: 0.6
 drag: 0.6
 rotateSpeed: 3.2
 baseRotateSpeed: 6.0
-health: 360
+health: 460
 armor: 2
 engineOffset: 4
 engineSize: 3
@@ -20,7 +20,7 @@ weapons: [
 		y: 0
 		top: false
 		ejectEffect: casing2
-		reload: 75
+		reload: 90
 		shots: 4
 		rotate: false
 		shotDelay: 5

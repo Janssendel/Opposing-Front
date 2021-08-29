@@ -1,0 +1,83 @@
+
+name: Hornet
+type: mech
+hitSize: 24
+canBoost: true
+boostMultiplier: 3
+mineTier: 4
+mineSpeed: 4
+buildSpeed: 1
+speed: 1
+accel: 1
+drag: 0.3
+rotateSpeed: 3.2
+baseRotateSpeed: 6.0
+health: 1200
+armor: 9
+engineOffset: 8
+engineSize: 3
+lightColor: ffffff
+weapons: [
+	{
+		name: weaponB
+		x: 12
+		y: 0
+		ejectEffect: casing4
+		reload: 25
+		top: false
+		xRand: 3
+		inaccurasy: 10
+		shootSound: bang
+		shake: 1
+		rotate: false
+		recoil: 1
+		bullet: {
+			type: EmpBulletType
+			speed: 4
+			lifetime: 60
+                        scaleVelocity: true
+			recoil: 0.2
+			damage: 9
+			splashDamage: 36
+			splashDamageRadius: 48
+			healPercent: 3
+			hitShake: 1
+			frontColor: c0ecff
+			backColor: 87ceeb
+			hittable: false
+			hitEffect: none
+			despawnEffect: {
+				type: WaveEffect
+				sizeFrom: 46
+				sizeTo: 50
+				colorFrom: c0ecff
+				colorTo: 87ceeb
+				lifetime: 20
+				strokeFrom: 3
+				strokeTo: 0
+			}
+			height: 18
+			width: 9
+			trailEffect:  {
+				type: ParticleEffect
+				colorFrom: 87ceeb
+				colorTo: 3f4049
+				particles: 1
+				sizeFrom: 4
+				sizeTo: 1
+				region: particle
+				spin: 3
+			}
+		}
+	}
+]
+abilities: [
+  {
+    type: ShieldRegenFieldAbility
+    amount: 60
+    max: 180
+    reload: 360
+    range: 48
+  }
+]
+research: bee

@@ -1,0 +1,62 @@
+name: Mantis
+type: mech
+hitSize: 36
+canBoost: true
+boostMultiplier: 1.8
+mineTier: 5
+mineSpeed: 6
+buildSpeed: 4
+speed: 1
+accel: 1
+drag: 0.3
+rotateSpeed: 2
+baseRotateSpeed: 6.0
+health: 4800
+armor: 12
+engineOffset: 16
+engineSize: 4
+lightColor: ffffff
+weapons: [
+	{
+		name: weaponB
+		x: 12
+		y: 0
+		ejectEffect: none
+		reload: 45
+		top: false
+		inaccurasy: 6
+		shootSound: laser
+		shake: 2
+		recoil: 2
+		bullet: {
+      type: LaserBulletType
+      length: 220
+      width: 6
+      damage: 160
+      colors: [c0ecff, 87ceeb]
+      sapStrength: 0.2
+      
+      lightningSpacing: 4
+      lightningDelay: 0.1
+      lightningDamage: 9
+      lightningLength: 6
+      lightningLengthRand: 3
+      lightningColor: c0ecff
+		}
+	}
+]
+abilities: [
+  {
+    type: StatusFieldAbility
+    reload: 180
+    range: 56
+    duration: 360
+    effect: {
+    	name: Fury
+	healthMultiplier: 0.6
+	reloadMultiplier: 1.5
+	speedMultiplier: 1.5
+	}
+  }
+]
+research: hornet

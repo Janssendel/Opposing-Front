@@ -1,6 +1,6 @@
 name: Bee
 type: mech
-hitsize: 3
+hitSize: 16
 canBoost: true
 boostMultiplier: 2
 speed: 1.2
@@ -8,7 +8,7 @@ accel: 1
 drag: 0.5
 rotateSpeed: 3.2
 baseRotateSpeed: 6.0
-health: 600
+health: 800
 armor: 5
 engineOffset: 5
 engineSize: 2
@@ -19,12 +19,11 @@ weapons: [
 		x: 12
 		y: 0
 		ejectEffect: casing2
-		reload: 100
+		reload: 90
 		top: false
-		shots: 6
-		shotDelay: 2
-		xRand: 6
-		innaccurasy: 5
+		shots: 3
+		xRand: 3
+		inaccurasy: 5
 		shootSound: missile
 		shake: 1
 		rotate: false
@@ -33,15 +32,15 @@ weapons: [
 			type: MissileBulletType
 			speed: 3
 			lifetime: 50
-			damage: 9
-			splashDamage: 18
+			recoil: 0.5
+			damage: 3
+			splashDamage: 14
 			splashDamageRadius: 24
 			hitShake: 1
 			frontColor: c0ecff
 			backColor: 87ceeb
 			hittable: false
-			despawnEffect: blockExplosionSmoke
-			hitEffect: blockExplosionSmoke
+			hitEffect: explosion
 			homingPower: 4
 			height: 4
 			width: 2
