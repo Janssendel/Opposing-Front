@@ -23,7 +23,7 @@ weapons: [
 		top: false
 		shots: 3
 		xRand: 3
-		inaccurasy: 5
+		inaccuracy: 5
 		shootSound: missile
 		shake: 1
 		rotate: false
