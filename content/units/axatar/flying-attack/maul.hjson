@@ -16,8 +16,8 @@ weapons: [
 		name: weapon2
 		mirror: false
 		rotate: true
-		x: 0
-		y: 0
+		x: 5
+		y: 7
 		reload: 40
 		top: true
 		shots: 3
