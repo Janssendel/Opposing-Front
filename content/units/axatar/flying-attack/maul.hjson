@@ -13,7 +13,7 @@ engineOffset: 8
 engineSize: 4
 weapons: [
 	{
-		name: weaponB
+		name: weapon2
 		mirror: false
 		rotate: true
 		x: 0
