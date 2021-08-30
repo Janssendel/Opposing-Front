@@ -22,57 +22,6 @@ weapons: [
 		{
 		name: weaponA
 		x: 0
-		y: -6
-		mirror: false
-		ejectEffect: none
-		shootSound: none
-		reload: 180
-		recoil: -30
-		bullet: {
-		      type: BasicBulletType
-		      instantDissapear: true
-		      damage: 0
-		      hitEffect: none
-		      despawnEffect: none
-		      }
-		}
-		{
-		name: weaponA
-		x: 0
-		y: -14
-		mirror: false
-		ejectEffect: none
-		shootSound: none
-		reload: 180
-		recoil: -60
-		bullet: {
-		      type: BasicBulletType
-		      instantDissapear: true
-		      damage: 0
-		      hitEffect: none
-		      despawnEffect: none
-		      }
-		}
-		{
-		name: weaponA
-		x: 0
-		y: -22
-		mirror: false
-		ejectEffect: none
-		shootSound: none
-		reload: 180
-		recoil: -90
-		bullet: {
-		      type: BasicBulletType
-		      instantDissapear: true
-		      damage: 0
-		      hitEffect: none
-		      despawnEffect: none
-		      }
-		}
-		{
-		name: weaponA
-		x: 0
 		y: -30
 		mirror: false
 		ejectEffect: none
@@ -111,8 +60,8 @@ weapons: [
 abilities: [
   {
     type: RepairFieldAbility
-    amount: 25
-    reload: 30
+    amount: 120
+    reload: 120 
     range: 120
   }
 ]
