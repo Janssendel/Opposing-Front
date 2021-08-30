@@ -19,7 +19,7 @@ engineSize: 3
 lightColor: ffffff
 weapons: [
 	{
-		name: weaponB
+		name: weapon0
 		x: 12
 		y: 0
 		ejectEffect: casing4
