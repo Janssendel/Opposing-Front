@@ -39,7 +39,7 @@ weapons: [
 		{
 		name: scorpio-tail-segment-4
 		x: 0
-		y: -20
+		y: -18
 		mirror: false
 		ejectEffect: none
 		shootSound: none
@@ -56,7 +56,7 @@ weapons: [
 		{
 		name: scorpio-tail-segment-3
 		x: 0
-		y: -30
+		y: -26
 		mirror: false
 		ejectEffect: none
 		shootSound: none
@@ -73,7 +73,7 @@ weapons: [
 		{
 		name: scorpio-tail-segment-2
 		x: 0
-		y: -40
+		y: -34
 		mirror: false
 		ejectEffect: none
 		shootSound: none
@@ -90,7 +90,7 @@ weapons: [
 		{
 		name: scorpio-tail-segment-1
 		x: 0
-		y: -50
+		y: -42
 		mirror: false
 		ejectEffect: none
 		shootSound: none
@@ -107,12 +107,12 @@ weapons: [
 		{
 		name: scorpio-tail-stinger
 		x: 0
-		y: -60
+		y: -50
 		mirror: false
 		ejectEffect: none
 		reload: 240
 		top: true
-		shootSound: opposing-front-fuse_big
+		shootSound: fuse_big
 		shake: 3
 		recoil: -200
 		bullet: {
@@ -122,7 +122,18 @@ weapons: [
 			  damage: 860
 			  toColor: 87ceeb
 			  recoil: 5
-			  }
+			  
+			  fragCone: 1
+			  fragBullets: 1
+			  fragBullet:{
+				type: SapBulletType
+				length: 220
+				damage: 20
+				sapStrength: 1
+				lifetime: 5
+				color: c0ecff
+				}
+			}
 		}
 ]
 abilities: [
