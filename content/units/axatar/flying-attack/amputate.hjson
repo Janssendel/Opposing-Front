@@ -11,8 +11,4 @@ rotateSpeed: 1
 lowAltittude: true
 engineOffset: 1
 engineSize: 1
-weapons:[
-{
-}
-]
 research: trample
