@@ -1,10 +1,9 @@
 name: Fabricator
 type: UnitFactory
 size: 3
-consumes:[
-	power: 11 {
-	}
-]
+consumes: {
+	power: 11
+}
 plans: [
 	{
 		unit: sting
@@ -31,7 +30,16 @@ plans: [
 			silicon/20
 		]
 	}
-]
+	{
+		unit: khor-dav
+		time: 780
+		requirements: [
+			plasteel/15
+			silicon/15
+			titanium/10
+			]
+		}
+	]
 requirements: [
 	plasteel/60
 	silicon/80
