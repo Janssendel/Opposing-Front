@@ -5,7 +5,6 @@ consumes:[
 	power: {
 	}
 ]
-}
 plans: [
 	{
 		unit: sting
