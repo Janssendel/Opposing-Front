@@ -1,8 +1,10 @@
 name: Fabricator
 type: UnitFactory
 size: 3
-power: {
-	power: 1
+consumes:[
+	power: {
+	}
+]
 }
 plans: [
 	{

@@ -1,7 +1,7 @@
 name: Upgrader
 size: 5
 health: 1500
-research: fabricator
+research: retrofitter
 consumes: {
 	power: 12
 	items: {
@@ -13,7 +13,7 @@ consumes: {
 	}
 }
 upgrades: [
-	[cicada, bee]
+	[bee, hornet]
 	[khar-selim, juud-thar]
 	[bite, maul]
 ]
