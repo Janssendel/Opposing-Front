@@ -3,7 +3,7 @@ size: 5
 health: 1500
 research: retrofitter
 consumes: {
-	power: 12
+	power: 14
 	items: {
 	items: [
 		plasteel/80
