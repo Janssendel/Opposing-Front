@@ -33,13 +33,13 @@ weapons: [
 		      type: LaserBulletType
 		      length: 220
 		      width: 6
-		      damage: 30
+		      damage: 100
 		      colors: [c0ecff, 87ceeb]
 		      healPercent: 8
 
 		      lightningSpacing: 12
 		      lightningDelay: 0.2
-		      lightningDamage: 6
+		      lightningDamage: 20
 		      lightningLength: 4
 		      lightningLengthRand: 3
 		      lightningColor: c0ecff
