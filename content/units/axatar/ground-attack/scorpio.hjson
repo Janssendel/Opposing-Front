@@ -5,7 +5,6 @@ legCount: 6
 legBaseOffset: 8
 legLength: 32
 legStepShake: 1
-
 hitSize: 48
 mineTier: 5
 mineSpeed: 26

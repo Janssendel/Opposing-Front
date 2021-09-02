@@ -19,7 +19,7 @@ engineSize: 4
 lightColor: ffffff
 weapons: [
 	{
-		name: weaponB
+		name: weaponC
 		x: 12
 		y: 0
 		ejectEffect: none
