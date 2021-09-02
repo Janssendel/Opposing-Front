@@ -14,7 +14,7 @@ rotateSpeed: 2
 baseRotateSpeed: 6.0
 health: 4200
 armor: 12
-engineOffset: 24
+engineOffset: 9
 engineSize: 4
 lightColor: ffffff
 weapons: [
