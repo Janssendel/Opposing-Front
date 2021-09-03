@@ -2,6 +2,7 @@ name: Scoprio
 description: Pew pew BAM
 type: legs
 groundElevation: 75
+visualElevation: 1
 canDrown: false
 legCount: 8
 legBaseOffset: 8
