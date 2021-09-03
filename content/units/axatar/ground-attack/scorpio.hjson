@@ -17,6 +17,7 @@ accel: 1
 drag: 0.2
 rotateSpeed: 2
 baseRotateSpeed: 6.0
+circleTarget: false
 health: 22000
 armor: 15
 lightColor: ffffff
