@@ -17,6 +17,7 @@ armor: 9
 engineOffset: 8
 engineSize: 3
 lightColor: ffffff
+circleTarget: false
 weapons: [
 	{
 		name: weapon0
