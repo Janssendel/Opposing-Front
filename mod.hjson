@@ -4,3 +4,4 @@ Author: "Kompconnaten"
 description: "Adds a bunch of stuff, that's it."
 version: "ask Komp"
 minGameVersion: 129.2
+dependencies: extended-unit-ais
