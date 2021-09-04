@@ -1,4 +1,4 @@
-controller: FlyingAI
+controller: SiegeAI
 name: Hornet
 type: mech
 hitSize: 24
