@@ -12,6 +12,7 @@ accel: 1
 drag: 0.3
 rotateSpeed: 2
 baseRotateSpeed: 6.0
+controller: DefenderAI
 health: 4200
 armor: 12
 engineOffset: 9

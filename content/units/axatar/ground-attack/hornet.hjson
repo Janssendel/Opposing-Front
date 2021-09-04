@@ -1,4 +1,4 @@
-
+controller: FlyingAI
 name: Hornet
 type: mech
 hitSize: 24
