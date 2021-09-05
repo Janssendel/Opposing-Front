@@ -25,7 +25,7 @@ weapons: [
 		{
 		name: scorpio-tail-segment-5
 		x: 0
-		y: -10
+		y: -20
 		mirror: false
 		ejectEffect: none
 		shootSound: none
@@ -42,7 +42,7 @@ weapons: [
 		{
 		name: scorpio-tail-segment-4
 		x: 0
-		y: -18
+		y: -28
 		mirror: false
 		ejectEffect: none
 		shootSound: none
@@ -59,7 +59,7 @@ weapons: [
 		{
 		name: scorpio-tail-segment-3
 		x: 0
-		y: -26
+		y: -36
 		mirror: false
 		ejectEffect: none
 		shootSound: none
@@ -76,7 +76,7 @@ weapons: [
 		{
 		name: scorpio-tail-segment-2
 		x: 0
-		y: -34
+		y: -44
 		mirror: false
 		ejectEffect: none
 		shootSound: none
@@ -93,7 +93,7 @@ weapons: [
 		{
 		name: scorpio-tail-segment-1
 		x: 0
-		y: -42
+		y: -52
 		mirror: false
 		ejectEffect: none
 		shootSound: none
@@ -110,7 +110,7 @@ weapons: [
 		{
 		name: scorpio-tail-stinger
 		x: 0
-		y: -50
+		y: -60
 		mirror: false
 		ejectEffect: none
 		reload: 240
