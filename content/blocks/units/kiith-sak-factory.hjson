@@ -1,0 +1,33 @@
+name: Kiith-Sak Factory
+type: UnitFactory
+size: 3
+consumes: {
+	power: 11
+}
+plans: [
+	{
+		unit: tiir-vaak
+		time: 720
+		requirements: [
+			plasteel/25
+			pyratite/10
+			silicon/15
+		]
+	}
+	{
+		unit: khor-dav
+		time: 780
+		requirements: [
+			plasteel/15
+			silicon/15
+			titanium/10
+			]
+		}
+	]
+requirements: [
+	plasteel/60
+	silicon/80
+	metaglass/40
+]
+research: plasteel
+category: units

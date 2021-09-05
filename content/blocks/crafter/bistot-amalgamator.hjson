@@ -1,5 +1,6 @@
 name: Bistot Amalgamator
 size: 2
+drawer: DrawSmelter
 hasPower: true
 hasLiquids: false
 hasItems: true

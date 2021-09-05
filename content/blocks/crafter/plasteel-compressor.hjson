@@ -1,5 +1,5 @@
 name: Plasteel Compressor
-drawer: DrawRotator
+drawer: DrawSmelter
 size: 2
 hasPower: true
 hasLiquids: false
