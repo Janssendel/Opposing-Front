@@ -1,2 +1,2 @@
 # Opposing-Front
-A mindustry mod that expands comabat arsenal with new units and turrets.
+A Mindustry mod that allows you to play an expansive campaign , with fair vanilla-like balancing to not overwhelm you and keep the basegame more fun.
