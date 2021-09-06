@@ -125,7 +125,7 @@ weapons: [
 			  damage: 860
 			  toColor: 87ceeb
 			  recoil: 5
-			  
+
 			  fragCone: 1
 			  fragBullets: 1
 			  fragBullet:{
@@ -143,8 +143,8 @@ abilities: [
   {
     type: RepairFieldAbility
     amount: 120
-    reload: 120 
+    reload: 120
     range: 120
   }
 ]
-research: hornet
+research: mantis

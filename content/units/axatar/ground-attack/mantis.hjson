@@ -12,7 +12,7 @@ accel: 1
 drag: 0.3
 rotateSpeed: 2
 baseRotateSpeed: 6.0
-controller: DefenderAI
+controller: GroundAI
 health: 4200
 armor: 12
 engineOffset: 9
@@ -57,6 +57,23 @@ weapons: [
 			}
 		}
 	}
+	{
+		name: weapon3
+		x: 0
+		y: 5
+		top: false
+		ejectEffect: casing2
+		reload: 35
+		shots: 1
+		rotate: false
+		shotDelay: 5
+		inaccuracy: 1
+		xRand: 4
+		shootSound: shootBig
+		recoil: 1
+		shake: 1
+		bullet: standardDense
+	}		
 ]
 abilities: [
   {

@@ -15,16 +15,16 @@ engineSize: 3
 lightColor: ffffff
 weapons: [
 	{
-		name: weaponC
+		name: weapon3
 		x: 5
 		y: 0
 		top: false
 		ejectEffect: casing2
-		reload: 90
-		shots: 4
+		reload: 35
+		shots: 1
 		rotate: false
 		shotDelay: 5
-		inaccuracy: 4
+		inaccuracy: 1
 		xRand: 4
 		shootSound: shootBig
 		recoil: 1
