@@ -44,7 +44,7 @@ weapons: [
 		      lightningLength: 4
 		      lightningLengthRand: 3
 		      lightningColor: c0ecff
-		      
+
 		      fragCone: 2
 		      fragBullets: 4
 		      fragBullet:{
@@ -60,12 +60,12 @@ weapons: [
 	{
 		name: weapon3
 		x: 0
-		y: 5
-		top: false
+		y: -5
+		top: true
 		ejectEffect: casing2
-		reload: 35
+		reload: 20
 		shots: 1
-		rotate: false
+		rotate: true
 		shotDelay: 5
 		inaccuracy: 1
 		xRand: 4
@@ -74,9 +74,9 @@ weapons: [
 		shake: 1
 		controllable: false
 		autoTarget: true
-		predictTarget: true 
+		predictTarget: true
 		bullet: standardDense
-	}		
+	}
 ]
 abilities: [
   {
