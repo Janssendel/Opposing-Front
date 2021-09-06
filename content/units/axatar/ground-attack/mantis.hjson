@@ -72,6 +72,9 @@ weapons: [
 		shootSound: shootBig
 		recoil: 1
 		shake: 1
+		controllable: false
+		autoTarget: true
+		predictTarget: true 
 		bullet: standardDense
 	}		
 ]
