@@ -63,7 +63,7 @@ weapons: [
 		y: -5
 		top: true
 		ejectEffect: casing2
-		reload: 20
+		reload: 15
 		shots: 1
 		rotate: true
 		shotDelay: 5
