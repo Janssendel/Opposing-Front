@@ -9,12 +9,13 @@ powerUse: 30
 reload: 420
 shootEffect: none
 smokeEffect: none
-shootSound: laserbig
+shootSound: none
 chargeSound: lasercharge2
+loopSound: laserbig
 chargeTime: 10
 shots: 3
 inaccuracy: 4
-range: 360
+range: 230
 shootType: {
 	type: ContinuousLaserBulletType
 	damage: 250
