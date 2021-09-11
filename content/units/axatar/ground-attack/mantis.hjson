@@ -59,36 +59,26 @@ weapons: [
 	}
 	{
 		name: weapon3
+		type: PointDefenceWeapon
 		x: 0
 		y: -5
 		top: true
-		ejectEffect: casing2
-		reload: 15
-		shots: 1
 		rotate: true
-		shotDelay: 5
-		inaccuracy: 1
-		xRand: 4
-		shootSound: shootBig
-		recoil: 1
-		shake: 1
-		controllable: false
-		autoTarget: true
-		predictTarget: true
-		bullet: standardDense
+		damage: 18
+		reload: 10
 	}
 ]
 abilities: [
   {
     type: StatusFieldAbility
-    reload: 90
+    reload: 120
     range: 80
-    duration: 600
+    duration: 1200
     effect: {
     	name: Aegis
-	healthMultiplier: 1.6
-	reloadMultiplier: 0.8
-	speedMultiplier: 0.8
+	healthMultiplier: 1.5
+	reloadMultiplier: 0.75
+	speedMultiplier: 0.75
 	effectChance: 0.01
 	effect: {
 	    type: ParticleEffect
