@@ -21,7 +21,7 @@ lightColor: ffffff
 weapons: [
 	{
 		name: weaponC
-		x: 12
+		x: 16
 		y: 0
 		ejectEffect: none
 		reload: 40
@@ -34,13 +34,13 @@ weapons: [
 		      type: LaserBulletType
 		      length: 220
 		      width: 6
-		      damage: 100
+		      damage: 80
 		      colors: [c0ecff, 87ceeb]
 		      healPercent: 8
 
 		      lightningSpacing: 12
 		      lightningDelay: 0.2
-		      lightningDamage: 20
+		      lightningDamage: 18
 		      lightningLength: 4
 		      lightningLengthRand: 3
 		      lightningColor: c0ecff
@@ -50,7 +50,7 @@ weapons: [
 		      fragBullet:{
 		      	type: SapBulletType
 			length: 220
-			damage: 20
+			damage: 9
 			sapStrength: 0.2
 			lifetime: 10
 			color: c0ecff
@@ -59,10 +59,11 @@ weapons: [
 	}
 	{
 		name: weapon3
-		type: PointDefenceWeapon
+		type: PointDefenseWeapon
 		x: 0
-		y: -5
+		y: -8
 		top: true
+		mirror: false
 		rotate: true
 		damage: 18
 		reload: 10
