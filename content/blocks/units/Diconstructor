@@ -1,0 +1,30 @@
+type: Reconstructor
+
+name: Diconstructor
+description: Upgrades plasteel-based units to the second tier by greatly expanding their armor and weapon arsenal.
+
+size: 4
+constructTime: 1200
+
+consumes: {
+  power: 6
+  items: {
+    items: [
+      plasteel/40
+      silicon/40
+      metaglass/40
+    ]
+  }
+}
+upgrades: [
+  [sting, bite],
+  [cicada. bee],
+  [tiir-vaak, khar-selim]
+]
+requirements: [
+  lead/250
+  silicon/150
+  plasteel/100
+]
+research: axatar-factory
+category: units
