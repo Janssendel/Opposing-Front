@@ -1,0 +1,31 @@
+type: Reconstructor
+
+name: Triconstructor
+description: Upgrades units to the third tier with much greater tech, usually adding special abilities.
+
+size: 6
+constructTime: 2400
+
+consumes: {
+  power: 8
+  items: {
+    items: [
+      plasteel/80
+      bistot/120
+      pastanium/40
+    ]
+  }
+}
+upgrades: [
+  [bite, maul],
+  [bee, hornet],
+  [khar-selim, juud-thar]
+]
+requirements: [
+  lead/500
+  bistot/200
+  plasteel/200
+  plastanium/150
+]
+research: axatar-factory
+category: units
