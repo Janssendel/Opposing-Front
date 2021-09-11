@@ -46,7 +46,7 @@ shootType: {
 requirements: [
 	bistot/400
 	plasteel/600
-	morphite: 250
+	morphite/250
 	titaniu/300
 	copper/2000
 ]
