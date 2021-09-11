@@ -1,0 +1,43 @@
+name: Bistot Amalgamator
+size: 3
+drawer: DrawSmelter
+hasPower: true
+hasLiquids: false
+hasItems: true
+craftTime: 180
+craftEffect:{
+	type: ParticleEffect
+	colorFrom: cd484e
+	colorTo: 562c3f
+	particles: 10
+	cone: 360
+	lenth: 10
+	spin: 50
+	sizeFrom: 2
+	sizeTo: 0
+	lenFrom: 1
+	lenTo: 2
+	strokeFrom: 4
+	strokeTo: 2
+	lifetime: 25
+}
+consumes: {
+	power: 3.5
+	items: {
+		items: [
+		phase-fabric/4
+		surge-alloy/2
+		plasteel/10
+		]
+		}		
+	}
+requirements: [
+	plasteel/800
+	surge-alloy/250
+	bistot/300
+]
+category: crafting
+research: bistot-amalgamator
+outputItem: morphite/1
+buildVisibility: shown
+type: genericCrafter

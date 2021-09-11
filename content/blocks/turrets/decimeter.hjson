@@ -9,9 +9,8 @@ powerUse: 30
 reload: 420
 shootEffect: none
 smokeEffect: none
-shootSound: none
+shootSound: laserbig
 chargeSound: lasercharge2
-loopSound: laserbig
 chargeTime: 10
 shots: 3
 inaccuracy: 4

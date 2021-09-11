@@ -1,0 +1,17 @@
+type: CoreBlock
+health:4550
+size: 3
+captureInvincibility: 132
+itemCapacity: 5600
+unitType: beta
+unitCapModifier: 16
+research: core-foundation
+researchCostMultiplier: 0.5
+requirements: [
+	plasteel/900
+	titanium/2000
+	thorium/400
+	copper/4000
+]
+buildVisibility: shown
+category: effect
