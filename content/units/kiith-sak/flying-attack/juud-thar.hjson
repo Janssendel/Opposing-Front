@@ -2,11 +2,11 @@ name: Juud-Thar
 type: flying
 flying: true
 hovering: true
-hitSize: 24
+hitSize: 32
 engineOffset: 12
 engineSize: 2
-speed: 4
-accel: 0.3
+speed: 1
+accel: 0.02
 drag: 0.01
 rotateSpeed: 3
 controller: FlyingAI
@@ -20,39 +20,14 @@ weapons: [
 		x: 0
 		y: 7
 		rotate: true
-		reload: 60
-		shots: 4
-		spacing: 0
-		inaccuracy: 4
-		shotDelay: 6
-		mirror: false
-		alternate: false
-		top: true
-		recoil: 1
-		shootSound: artillery
-		smokeEffect: none
-		shootEffect: none
-		bullet: {
-			type: EmpBulletType
-			lifetime: 80
-			speed: 3
-			damage: 32
-			splashDamage: 80
-			splashDamageRadius: 80
-			pierce: true
-			pierceBuilding: true
-			pierceCap: 2
-			radius: 32
-			timeIncrease: 1.2
-			timeDuration: 60
-			powerDamageScl: 20	
-			powerSclDecrease: 1
-			hitPowerEffect: hitEmpSpark 
-			chainEffect: chainLightning
-			applyEffect: chainEmp
-			hitUnits: true
-			unitDamageScl: 3
-			}
+		shootCone: 10
+		bullet:{
+			type: ShrapnelBulletType
+			length: 120
+			width: 16
+			damage: 900
+			killShooter: true
 		}
+	}
 	]
 research: khar-selim
