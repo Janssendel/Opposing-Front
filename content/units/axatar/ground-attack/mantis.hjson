@@ -1,5 +1,5 @@
 name: Mantis
-description: A powerfull defencive mech that can leech health with its spear-like lasers, but is innefective against highly armored units. Significanly increases nearby unit's durability at the cost of speed and firerate.
+description: Fires a piercing laser that saps enemy health. Can boost over terrain.
 type: mech
 hitSize: 36
 canBoost: true
@@ -15,7 +15,7 @@ baseRotateSpeed: 6.0
 controller: GroundAI
 health: 4200
 armor: 12
-engineOffset: 9
+engineOffset: 13
 engineSize: 4
 lightColor: ffffff
 weapons: [
