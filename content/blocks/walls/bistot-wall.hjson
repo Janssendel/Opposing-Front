@@ -1,0 +1,12 @@
+name: Bistot Wall
+description: Protects other blocks from damage . Can block lasers .
+health: 900
+size: 1
+type: Wall
+insulated: true
+research: plasteel-wall
+requirements: [
+	bistot/4
+]
+buildVisibility: shown
+category: defense

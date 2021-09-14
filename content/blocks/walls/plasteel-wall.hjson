@@ -1,0 +1,11 @@
+name: Plasteel Wall
+description: Protects other blocks from damage . Can be spammed if you want to .
+health: 1000
+size: 1
+type: Wall
+research: titanium-wall
+requirements: [
+	plasteel/3
+]
+buildVisibility: shown
+category: defense
