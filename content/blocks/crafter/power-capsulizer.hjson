@@ -1,6 +1,5 @@
 name: Power Capsulizer
 size: 2
-drawer: none
 hasPower: true
 hasLiquids: false
 hasItems: false
@@ -30,7 +29,6 @@ requirements: [
 	graphite/30	
 ]
 category: crafting
-research: coal-generator
 outputItem: power-capsule/1
 buildVisibility: shown
 type: genericCrafter
