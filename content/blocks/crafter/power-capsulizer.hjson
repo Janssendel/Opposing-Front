@@ -1,6 +1,6 @@
 name: Power Capsulizer
 size: 2
-drawer: DrawmMixer
+drawer: none
 hasPower: true
 hasLiquids: false
 hasItems: false
