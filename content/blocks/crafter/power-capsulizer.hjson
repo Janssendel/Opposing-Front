@@ -1,0 +1,36 @@
+name: Power Capsulizer
+size: 2
+drawer: DrawmMixer
+hasPower: true
+hasLiquids: false
+hasItems: false
+craftTime: 120
+craftEffect: {
+	type: particleEffect
+	colorFrom: ffffff
+	colorTo: ffd37f
+	particles: 10
+	cone: 360
+	lenth: 10
+	spin: 50
+	sizeFrom: 2
+	sizeTo: 0
+	lenFrom: 1
+	lenTo: 2
+	strokeFrom: 4
+	strokeTo: 2
+	lifetime: 25
+}
+consumes: {
+	power: 4
+		}		
+requirements: [
+	lead/50
+	copper/25
+	graphite/30	
+]
+category: crafting
+research: coal-generator
+outputItem: power-capsule/1
+buildVisibility: shown
+type: genericCrafter

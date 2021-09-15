@@ -1,0 +1,5 @@
+name: Power Capsule
+description: Used to power buildings . Used as a sort of transportable energy medium .
+charge: 10
+research: coal
+cost: 1
