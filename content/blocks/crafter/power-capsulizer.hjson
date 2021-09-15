@@ -2,7 +2,7 @@ name: Power Capsulizer
 size: 2
 hasPower: true
 hasLiquids: false
-hasItems: false
+hasItems: true
 craftTime: 120
 craftEffect: {
 	type: particleEffect
@@ -22,7 +22,12 @@ craftEffect: {
 }
 consumes: {
 	power: 4
-		}		
+	items: {
+		items: [
+			copper/10
+			]
+		}
+	}	
 requirements: [
 	lead/50
 	copper/25
