@@ -33,7 +33,7 @@ requirements: [
 	copper/25
 	graphite/30	
 ]
-category: crafting
+category: power
 outputItem: power-capsule/1
 buildVisibility: shown
 type: genericCrafter

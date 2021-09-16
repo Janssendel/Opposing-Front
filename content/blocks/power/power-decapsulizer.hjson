@@ -1,0 +1,36 @@
+name: Power Decapsulizer
+size: 1
+hasPower: true
+hasLiquids: false
+hasItems: true
+health: 100
+powerProduction: 120
+generateEffect: {
+type: particleEffect
+	colorFrom: ffffff
+	colorTo: ffd37f
+	particles: 10
+	cone: 360
+	lenth: 10
+	spin: 50
+	sizeFrom: 2
+	sizeTo: 0
+	lenFrom: 1
+	lenTo: 2
+	strokeFrom: 4
+	strokeTo: 2
+	lifetime: 25
+	}
+consumes: {
+	items: {
+		items: [
+			power-capsule/1
+			]
+		}
+	}
+requirements: [
+	lead/25
+	copper/30
+	]
+type: SingleTypeGenerator
+category: power
