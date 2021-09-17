@@ -11,13 +11,14 @@ shootEffect: none
 smokeEffect: none
 shootSound: laserbig
 chargeSound: lasercharge2
+loopSound: beam
 chargeTime: 10
 shots: 3
 inaccuracy: 4
 range: 230
 shootType: {
 	type: ContinuousLaserBulletType
-	damage: 250
+	damage: 24
 	lifetime: 16
 	absorbable: false
 	reflectable: false
