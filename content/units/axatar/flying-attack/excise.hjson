@@ -9,19 +9,20 @@ accel: 0.1
 drag: 0.02
 rotateSpeed: 1
 lowAltittude: true
-engineOffset: 16
-engineSize: 3
+engineOffset: 10
+engineSize: 4
 weapons:[
   {
   name: weapon4
-  x: 7
-  y: 8
+  x: 8
+  y: 7
   reload: 15
   inaccuracy: 4
   velocityRnd: 0.1
   shootEffect: none
   smokeEffect: none
   shootSound: pew
+  rotate: true
   bullet:{
 		type: BasicBulletType
 		speed: 3
@@ -36,14 +37,15 @@ weapons:[
 }
 {
 	name: weapon4
-	x: 0
-	y: 16
+	x: 16
+	y: 0
 	 reload: 15
 	inaccuracy: 4
 	velocityRnd: 0.1
   	shootEffect: none
 	smokeEffect: none
 	shootSound: pew
+	rotate: true
 	bullet: {
 		type: BasicBulletType
 		speed: 3
