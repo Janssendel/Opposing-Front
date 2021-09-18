@@ -76,7 +76,8 @@ abilities: [
     range: 80
     duration: 1200
     effect: {
-    	name: Aegis
+    	name: aegis
+		localizedName: Aegis
 	healthMultiplier: 1.5
 	reloadMultiplier: 0.75
 	speedMultiplier: 0.75
