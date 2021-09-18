@@ -1,0 +1,16 @@
+name: aegis
+localizedName: Aegis
+healthMultiplier: 1.5
+reloadMultiplier: 0.75
+speedMultiplier: 0.75
+effectChance: 0.01
+effect: {
+	type: ParticleEffect
+    particles: 1
+    lifetime: 200
+    sizeFrom: 6
+    sizeTo: 0
+    colorFrom: c0ecff
+    colorTo: 87ceeb
+    region: opposing-front-particle-shield
+}
