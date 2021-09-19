@@ -10,7 +10,7 @@ drag: 0.02
 rotateSpeed: 1
 engineOffset: 12
 engineSize: 4
-lowAlttitude: true
+lowAltitude: true
 weapons:[
   {
   name: weapon4
