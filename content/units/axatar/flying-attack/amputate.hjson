@@ -1,14 +1,187 @@
 name: Amputate
 type: flying
-hitsize: 1
+hitsize: 72
 flying: true
 armor: 0
 health: 1
 speed: 1
-accel: 1
-drag: 1
-rotateSpeed: 1
-lowAltittude: true
-engineOffset: 1
-engineSize: 1
+accel: 0.2
+drag: 0.01
+rotateSpeed: 0.9
+lowAltittude: false
+engineOffset: 53
+engineSize: 7
+weapons: [
+ {
+	name: orb-launcher-medium
+	x: 12
+	y: -9
+	reload: 150
+	rotate: false
+  	shootEffect: none
+	smokeEffect: none
+	shootSound: bigshot
+	mirror: true
+	alternate: false
+	shots: 2
+	inaccuracy: 2
+	top: false
+	bullet: {
+		type: BasicBulletType
+		sprite: opposing-front-orb
+		speed: 2.5
+		lifetime: 120
+		reflectable: false
+		hittable: true
+		absorbable: true
+		collides: false
+		frontColor: bcffff
+		backColor:87ceeb
+		damage: 0
+		
+		width: 20
+		height: 20
+		
+		smokeEffect: none
+		shootEffect: none
+		hitEffect: none
+		despawnEffect: {
+			type: ParticleEffect
+			particles: 2
+			sizeFrom: 20
+			sizeTo: 20
+			region: opposing-front-orb-fragment
+			lifetime: 60
+			colorFrom: 87ceeb
+			colorTo: ffffff
+			}
+			
+		trailLength: 0
+		
+		fragCone: 1
+		fragAngle: 1
+		fragBullets: 1
+		fragVelocityMin: 1
+		fragVelocityMax: 1
+		fragBullet: {
+			type: BasicBulletType
+			lifetime: 160
+			speed: 7
+			damage: 300
+			smokeEffect: none
+			shootEffect: none
+			hitEffect: none
+			despawnEffect: none
+			sprite: opposing-front-orb-frag
+			frontColor: bcffff
+			backColor: 87ceeb
+			damage: 300
+			
+			trailLength: 0
+			
+			width: 20
+			height: 20
+		}
+	}
+}
+	{
+		name: orb-launcher
+		x: 0
+		y: 30
+		rotate: true
+		reload: 85
+		mirror: false
+		shootEffect: none
+		smokeEffect: none
+		shootSound: bigshot
+		shots: 2
+		bullet: {
+			type: BasicBulletType
+			sprite: opposing-front-orb
+			speed: 2.5
+			lifetime: 120
+			reflectable: false
+			hittable: true
+			absorbable: true
+			collides: false
+			width: 8
+			length: 8
+			frontColor: bcffff
+			backColor:87ceeb
+			damage: 0
+		
+			width: 20
+			height: 20
+		
+			smokeEffect: none
+			shootEffect: none
+			hitEffect: none
+			despawnEffect: {
+			type: ParticleEffect
+			particles: 2
+			sizeFrom: 20
+			sizeTo: 20
+			region: opposing-front-orb-fragment
+			lifetime: 60
+			colorFrom: 87ceeb
+			colorTo: ffffff
+		}
+			
+			trailLength: 0
+		
+			fragCone: 1
+			fragAngle: 1
+			fragBullets: 1
+			fragVelocityMin: 1
+			fragVelocityMax: 1
+			fragBullet: {
+				type: BasicBulletType
+				lifetime: 160
+				speed: 7
+				damage: 300
+				smokeEffect: none
+				shootEffect: none
+				hitEffect: none
+				despawnEffect: none
+				sprite: opposing-front-orb-frag
+				frontColor: bcffff
+				backColor: 87ceeb
+				damage: 300
+			
+				trailLength: 0
+			
+				width: 20
+				height: 20
+				}
+			}	
+		}
+		{
+			name: amputate-weapon
+			x: 16
+			y: 29
+			controllable: false
+			autoTarget: true
+			rotate: true
+			reload: 85
+			chargeSound: lasercharge2
+			shootSound: beam
+			shootEffect: none
+			smokeeffect: none
+			continuous: true
+			bullet: {
+				type: ContinuousLaserBulletType
+				damage: 30
+				lifetime: 160
+				absorbable: false
+				reflectable: false
+				hittable: false
+				length: 320
+				fadeTime: 15
+				colors: [8aa3f4,87ceeb,bcffff,ffffff]
+				tscale: [0.8, 0.6, 0.4, 0.2, 0.1]
+				osclMag: 2
+				osclScl: 3
+				}
+			}
+	]
 research: trample

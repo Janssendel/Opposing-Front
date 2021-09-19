@@ -1,18 +1,164 @@
 name: Trample
 type: flying
-hitsize: 1
+hitsize: 64
 flying: true
 armor: 0
 health: 1
-speed: 1
-accel: 1
-drag: 1
-rotateSpeed: 1
-lowAltittude: true
-engineOffset: 1
-engineSize: 1
+speed: 1.2
+accel: 0.3
+drag: 0.02
+rotateSpeed: 0.95
+lowAltittude: false
+engineOffset: 26
+engineSize: 4
 weapons:[
-{
-}
+	{
+		name: kaon-driver
+		rotate: true
+		mirror: true
+		reload: 15
+		reload: 60
+		shootEffect: none
+		smokeEffect: none
+		shootSound: none
+		bullet: {
+			type: BasicBulletType
+			collides: false
+			hittable: false
+			reflectable: false
+			absorbable: false
+			lifetime: 120
+			scaleVelocity: true
+			
+			frontColor: bcffff
+			backColor:87ceeb
+			sprite: kaon-bolt
+			
+			speed: 5
+			
+			width: 20
+			height: 15
+			
+			despawnEffect: {
+				type: MultiEffect
+				effects: [
+					{
+						type: ParticleEffect
+						lifetime: 40
+						colorFrom: bcffff
+						colorTo: ffffff
+						particles: 10
+						cone: 360
+						length: 30
+						baseLength: 10
+						
+						lightScl: 4
+						lightOpacity: 1
+						lightColor: bcffff
+						
+						spin: 1.5
+						sizeFrom: 4
+						sizeTo: 0
+						strokeFrom: 0
+						strokeTo: 6
+						lenFrom: 4
+						lenTo:0
+					}
+					{
+						type: WaveEffect
+						lifetime: 30
+						colorFrom: ffffff
+						colorTo: bcffff
+						lightColor: bcffff
+						sizeFrom: 0
+						sizeTo: 10
+						lightScl: 5
+						lightOpacity: 0.5
+						rotation: 4
+						strokeFrom: 3
+						strokeTo: 4
+					}
+				]
+			}
+			trailLength: 0
+			
+			fragCone: 2
+			fragAngle: 0
+			fragBullets: 5
+			fragVelocityMin: 1
+			fragVelocityMax: 1
+			fragBullet: {
+				type: BasicBulletType
+				sprite: kaon-frag-bolt
+				frontColor:ffffff
+				backColor: bcffff
+				lifetime: 30
+				speed: 9
+				damage: 30
+				smokeEffect: none
+				shootEffect: none
+				reflectable: false
+				hittable: false
+				knockback: 10
+				impact: true
+				status: disarmed
+				hitEffect: {
+					type: ParticleEffect
+					lifetime: 40
+					colorFrom: bcffff
+					colorTo: ffffff
+					particles: 10
+					cone: 360
+					length: 30
+					baseLength: 10
+						
+					lightScl: 4
+					lightOpacity: 1
+					lightColor: bcffff
+						
+					spin: 1.5
+					sizeFrom: 4
+					sizeTo: 0
+					strokeFrom: 0
+					strokeTo: 6
+					lenFrom: 4
+					lenTo:0
+				}
+				
+				despawnEffect: {
+					type: ParticleEffect
+					lifetime: 40
+					colorFrom: bcffff
+					colorTo: ffffff
+					particles: 10
+					cone: 360
+					length: 30
+					baseLength: 10
+						
+					lightScl: 4
+					lightOpacity: 1
+					lightColor: bcffff
+						
+					spin: 1.5
+					sizeFrom: 4
+					sizeTo: 0
+					strokeFrom: 0
+					strokeTo: 6
+					lenFrom: 4
+					lenTo:0
+					}
+				trailEffect:{
+				type: ParticleEffect
+				colorFrom: 87ceeb
+				colorTo: 3f4049
+				particles: 4
+				sizeFrom: 4
+				sizeTo: 1
+				region: particle
+				spin: 3
+				}
+			}
+		}
+	}
 ]
 research: swallow

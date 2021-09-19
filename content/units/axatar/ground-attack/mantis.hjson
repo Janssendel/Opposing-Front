@@ -28,6 +28,7 @@ weapons: [
 		top: false
 		inaccurasy: 6
 		shootSound: laser
+		shootEffect: none
 		shake: 2
 		recoil: 2
 		bullet: {
@@ -37,6 +38,7 @@ weapons: [
 		      damage: 80
 		      colors: [c0ecff, 87ceeb]
 		      healPercent: 8
+			  shootEffect: none
 
 		      lightningSpacing: 12
 		      lightningDelay: 0.2
