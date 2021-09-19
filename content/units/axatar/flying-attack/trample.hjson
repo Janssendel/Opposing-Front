@@ -1,6 +1,6 @@
 name: Trample
 type: flying
-hitsize: 64
+hitSize: 64
 flying: true
 armor: 0
 health: 1
@@ -11,6 +11,7 @@ rotateSpeed: 0.95
 lowAltitude: false
 engineOffset: 26
 engineSize: 4
+lowAltitude: true
 weapons:[
 	{
 		name: kaon-driver

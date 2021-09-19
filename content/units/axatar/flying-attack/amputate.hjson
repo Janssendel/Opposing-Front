@@ -1,6 +1,6 @@
 name: Amputate
 type: flying
-hitsize: 72
+hitSize: 72
 flying: true
 armor: 0
 health: 1
@@ -8,14 +8,14 @@ speed: 1
 accel: 0.2
 drag: 0.01
 rotateSpeed: 0.9
-lowAltitude: false
+lowAltitude: true
 engineOffset: 53
 engineSize: 7
 weapons: [
  {
 	name: orb-launcher-medium
 	x: 12
-	y: -9
+	y: -8
 	reload: 150
 	rotate: false
   	shootEffect: none
@@ -26,6 +26,7 @@ weapons: [
 	shots: 2
 	inaccuracy: 2
 	top: false
+	recoil: 0
 	bullet: {
 		type: BasicBulletType
 		sprite: opposing-front-orb
@@ -38,6 +39,7 @@ weapons: [
 		frontColor: bcffff
 		backColor:87ceeb
 		damage: 0
+		scaleVelocity: true
 		
 		width: 20
 		height: 20
@@ -109,6 +111,7 @@ weapons: [
 			frontColor: bcffff
 			backColor:87ceeb
 			damage: 0
+			scaleVelocity: true
 		
 			width: 20
 			height: 20

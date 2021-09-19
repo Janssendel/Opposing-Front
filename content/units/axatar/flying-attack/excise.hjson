@@ -1,6 +1,6 @@
 name: Excise
 type: flying
-hitsize: 44
+hitSize: 44
 flying: true
 armor: 12
 health: 2800
