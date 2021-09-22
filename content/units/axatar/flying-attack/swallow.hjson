@@ -1,65 +1,55 @@
 name: Swallow
 type: flying
-hitSize: 56
+hitSize: 64
 flying: true
-armor: 0
-health: 1
-speed: 1
+armor: 13
+health: 6400
+speed: 0.9
 accel: 0.3
 drag: 0.023
-rotateSpeed: 1
+rotateSpeed: 0.9
 lowAltitude: true
-engineOffset: 12
-engineSize: 6
+engineOffset: 27
+engineSize: 4
 rotateShooting: false
 faceTarget: false
 weapons: [
 	{
 		name: weapon3
-		x: 12
-		y: 12
-		top: fa
-		ejectEffect: casing2
-		reload: 5
-		shots: 1
+		type: PointDefenseWeapon
+		x: 0
+		y: 0
+		top: true
+		mirror: false
 		rotate: true
-		shotDelay: 5
-		inaccuracy: 1
-		xRand: 4
-		shootSound: pew
-		recoil: 1
-		shake: 1
-		controllable: false
-		autoTarget: true
-		bullet: {
-			type: BasicBulletType
-			speed: 3
-			lifetime: 50
-			damage: 30
-			splashDamage: 14
-			splashDamageRadius: 24
-			hitShake: 1
-			frontColor: c0ecff
-			backColor: 87ceeb
-		}
+		damage: 30
+		reload: 5
 	}
 ]
 abilities: [
 	{
 		type: UnitSpawnAbility
-		unit: sting
-		spawnTime: 240
-		spawnX: 11
-		spawnY: -5
+		unit: bite
+		spawnTime: 360
+		spawnX: 8
+		spawnY: -16
 		spawnEffect: spawn 
 		}
 	{
 		type: UnitSpawnAbility
-		unit: sting
-		spawnTime: 240
-		spawnX: -11
-		spawnY: -5
+		unit: bite
+		spawnTime: 360
+		spawnX: 8
+		spawnY: -16
 		spawnEffect: spawn
 		}
-	]
+	{
+		type: ShieldRegenFieldAbility
+		amount: 100
+		max: 500
+		reload: 240
+		range: 16
+	}
+]
+	
 research: excise

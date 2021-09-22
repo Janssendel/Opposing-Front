@@ -16,9 +16,9 @@ rotateShooting: true
 commandLimit: 5
 weapons: [
 	{
-	name: 1
-	x: 0
-	y: 4
+	name: weapon4
+	x: 4
+	y: 0
 	rotate: false
 	top: false
 	shootEffect: none

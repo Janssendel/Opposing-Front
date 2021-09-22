@@ -2,6 +2,7 @@ name: Excise
 type: flying
 hitSize: 44
 flying: true
+controller: HugAI
 armor: 12
 health: 2800
 speed: 1.5
@@ -10,7 +11,7 @@ drag: 0.02
 rotateSpeed: 1
 engineOffset: 12
 engineSize: 4
-lowAltitude: true
+lowAltitude: false
 weapons:[
   {
   name: weapon4
@@ -25,6 +26,8 @@ weapons:[
   rotate: true
   bullet:{
 		type: BasicBulletType
+		shootEffect: false
+		smokeEffect:none
 		speed: 3
 		lifetime: 50
 		damage: 3
