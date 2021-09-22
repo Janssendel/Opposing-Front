@@ -81,6 +81,7 @@ weapons:[
 		frontColor: bcffff
 		backColor:87ceeb
 		damage: 0
+		scaleVelocity: true
 		
 		width: 20
 		height: 20
@@ -119,6 +120,8 @@ weapons:[
 			frontColor: bcffff
 			backColor: 87ceeb
 			damage: 300
+			reflectable: false
+			hittable: false
 			
 			trailLength: 0
 			

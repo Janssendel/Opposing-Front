@@ -4,11 +4,12 @@ hitSize: 72
 flying: true
 armor: 0
 health: 1
-speed: 1
+speed: 0.8
 accel: 0.2
-drag: 0.01
-rotateSpeed: 0.9
+drag: 0.03
+rotateSpeed: 0.8
 lowAltitude: true
+circleTarget: false
 engineOffset: 53
 engineSize: 7
 weapons: [
@@ -78,6 +79,8 @@ weapons: [
 			frontColor: bcffff
 			backColor: 87ceeb
 			damage: 300
+			reflectable: false
+			hittable: false
 			
 			trailLength: 0
 			
@@ -86,78 +89,6 @@ weapons: [
 		}
 	}
 }
-	{
-		name: orb-launcher
-		x: 0
-		y: 30
-		rotate: true
-		reload: 85
-		mirror: false
-		shootEffect: none
-		smokeEffect: none
-		shootSound: bigshot
-		shots: 2
-		bullet: {
-			type: BasicBulletType
-			sprite: opposing-front-orb
-			speed: 2.5
-			lifetime: 120
-			reflectable: false
-			hittable: true
-			absorbable: true
-			collides: false
-			width: 8
-			length: 8
-			frontColor: bcffff
-			backColor:87ceeb
-			damage: 0
-			scaleVelocity: true
-		
-			width: 20
-			height: 20
-		
-			smokeEffect: none
-			shootEffect: none
-			hitEffect: none
-			despawnEffect: {
-			type: ParticleEffect
-			particles: 2
-			sizeFrom: 20
-			sizeTo: 20
-			region: opposing-front-orb-fragment
-			lifetime: 60
-			colorFrom: 87ceeb
-			colorTo: ffffff
-		}
-			
-			trailLength: 0
-		
-			fragCone: 1
-			fragAngle: 1
-			fragBullets: 1
-			fragVelocityMin: 1
-			fragVelocityMax: 1
-			fragBullet: {
-				type: BasicBulletType
-				lifetime: 160
-				speed: 7
-				damage: 300
-				smokeEffect: none
-				shootEffect: none
-				hitEffect: none
-				despawnEffect: none
-				sprite: opposing-front-orb-frag
-				frontColor: bcffff
-				backColor: 87ceeb
-				damage: 300
-			
-				trailLength: 0
-			
-				width: 20
-				height: 20
-				}
-			}	
-		}
 		{
 			name: amputate-weapon
 			x: 16

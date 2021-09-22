@@ -17,6 +17,7 @@ weapons:[
 		name: kaon-driver
 		rotate: true
 		mirror: true
+		y: 10
 		reload: 15
 		reload: 60
 		shootEffect: none
@@ -33,7 +34,7 @@ weapons:[
 			
 			frontColor: bcffff
 			backColor:87ceeb
-			sprite: kaon-bolt
+			sprite: kabolt
 			
 			speed: 5
 			
@@ -90,7 +91,7 @@ weapons:[
 			fragVelocityMax: 1
 			fragBullet: {
 				type: BasicBulletType
-				sprite: kaon-frag-bolt
+				sprite: kabolt-frag
 				frontColor:ffffff
 				backColor: bcffff
 				lifetime: 30
