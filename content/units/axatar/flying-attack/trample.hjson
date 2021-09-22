@@ -2,7 +2,7 @@ name: Trample
 type: flying
 hitSize: 64
 flying: true
-armor: 
+armor: 50
 health: 10000
 speed: 0.8
 accel: 0.3
