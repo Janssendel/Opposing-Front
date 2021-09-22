@@ -2,8 +2,6 @@ type: flying
 name: Sting
 description: Small Axatar unit. Fragile. Tries to constantly weave around the prioritized target to make it itself harder to hit.
 controller: FlyingAI
-blockFlag: [reactor, battery, generator]
-unitFlag: [gamma, beta, alpha]
 flying: true
 hitSize: 8
 health: 160

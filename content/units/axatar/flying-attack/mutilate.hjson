@@ -1,18 +1,14 @@
 name: Mutilate
 type: flying
-hitsize: 1
+hitSize: 112
 flying: true
 armor: 0
 health: 1
-speed: 1
-accel: 1
-drag: 1
-rotateSpeed: 1
-lowAltittude: true
-engineOffset: 1
-engineSize: 1
-weapons:[
-{
-}
-]
+speed: 0.75
+accel: 0.1
+drag: 0.04
+rotateSpeed: 0.7
+lowAltittude: false
+engineOffset: 58
+engineSize: 9
 research: amputate
