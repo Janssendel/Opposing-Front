@@ -1,0 +1,42 @@
+flying: true
+controller: HugAI
+type: flying
+name: Scratch
+description: Annoying thing that I , the dev , will throw at you , haha! 
+details: hey turn on capped fps to make sure the thing shoots well
+hitSize: 4
+engineOffset: 4
+engineSize: 2
+rotateSpeed: 4
+speed: 4
+accel: 0.1
+drag: 0.03
+health: 30
+armor: 0
+commandLimit: 0
+range: 4000
+//quite obvious because these things need to beeline at their targets
+weapons: [
+	{
+		name: gun
+		x: 0
+		y: 0
+		smokeEffect: none
+		shootEffect: none
+		mirror: false
+		shootSound: shoot
+		shake: 0.5
+		rotate: true
+		bullet: {
+			type: BasicBulletType
+			speed: 11
+			lifetime: 50
+			damage: 10
+			hitShake: 1
+			frontColor: c0ecff
+			backColor: 87ceeb
+			width: 4
+			height: 4
+		}
+	}
+]

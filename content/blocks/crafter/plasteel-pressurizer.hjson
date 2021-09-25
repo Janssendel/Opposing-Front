@@ -1,0 +1,42 @@
+name: Plasteel Pressurizer
+drawer: DrawSmelter
+size: 3
+hasPower: true
+hasLiquids: false
+hasItems: true
+craftTime: 180
+craftEffect:{
+	type: ParticleEffect
+	colorFrom: ffffff
+	colorTo: a5a5a5
+	particles: 10
+	cone: 360
+	lenth: 10
+	spin: 50
+	sizeFrom: 4
+	sizeTo: 1
+	lenFrom: 1
+	lenTo: 2
+	strokeFrom: 4
+	strokeTo: 2
+	lifetime: 25
+}
+consumes: {
+	power: 2.4
+	items: {
+		items: [
+		spore-pod/8
+		titanium/9
+		]
+		}		
+	}
+requirements: [
+	titanium/65
+	copper: 190
+	silicon/70
+]
+category: crafting
+research: plasteel-compressor
+outputItem: plasteel/3
+buildVisibility: shown
+type: genericCrafter

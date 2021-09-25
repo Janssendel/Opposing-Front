@@ -1,0 +1,5 @@
+name: Metaphase
+description: Warps ships into a temporary pocket dimesion.
+healthMultiplier: 100
+speedMultiplier: 2
+reloadMultiplier: 2

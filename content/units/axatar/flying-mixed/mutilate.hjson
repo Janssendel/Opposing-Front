@@ -1,0 +1,258 @@
+name: Mutilate
+type: flying
+hitSize: 112
+flying: true
+armor: 240
+health: 332000
+speed: 0.75
+accel: 0.1
+drag: 0.02
+rotateSpeed: 0.6
+lowAltittude: true
+engineOffset: 62
+engineSize: 9
+circleTarget: false
+rotateShooting: false
+faceTarget: false
+abilities: [
+	{
+		type: UnitSpawnAbility
+		unit: sting
+		spawnTime: 240
+		spawnX: -8
+		spawnY: 12
+		spawnEffect: spawn
+	}
+	{
+		type: UnitSpawnAbility
+		unit: sting
+		spawnTime: 240
+		spawnX: 8
+		spawnY: 12
+		spawnEffect: spawn
+	}
+//2 unit spawners
+	{
+		type: UnitSpawnAbility
+		unit: sting
+		spawnTime: 240
+		spawnX: -8
+		spawnY: 20
+		spawnEffect: spawn
+	}
+	{
+		type: UnitSpawnAbility
+		unit: sting
+		spawnTime: 240
+		spawnX: 8
+		spawnY: 20
+		spawnEffect: spawn
+	}
+//4 unit spawners
+	{
+		type: UnitSpawnAbility
+		unit: sting
+		spawnTime: 240
+		spawnX: -8
+		spawnY: 28
+		spawnEffect: spawn
+	}
+	{
+		type: UnitSpawnAbility
+		unit: sting
+		spawnTime: 240
+		spawnX: 8
+		spawnY: 28
+		spawnEffect: spawn
+	}
+//6 unit spawners
+	{
+		type: UnitSpawnAbility
+		unit: sting
+		spawnTime: 240
+		spawnX: -8
+		spawnY: 36
+		spawnEffect: spawn
+	}
+	{
+		type: UnitSpawnAbility
+		unit: sting
+		spawnTime: 240
+		spawnX: 8
+		spawnY: 36
+		spawnEffect: spawn
+	}
+// 8 unit spawners
+	{
+		type: UnitSpawnAbility
+		unit: sting
+		spawnTime: 240
+		spawnX: -8
+		spawnY: 44
+		spawnEffect: spawn
+	}
+	{
+		type: UnitSpawnAbility
+		unit: sting
+		spawnTime: 240
+		spawnX: 8
+		spawnY: 44
+		spawnEffect: spawn
+	}
+//10 unit spawners
+	{
+		type: UnitSpawnAbility
+		unit: sting
+		spawnTime: 240
+		spawnX: -8
+		spawnY: 52
+		spawnEffect: spawn
+	}
+	{
+		type: UnitSpawnAbility
+		unit: sting
+		spawnTime: 240
+		spawnX: 8
+		spawnY: 52
+		spawnEffect: spawn
+	}
+//12 unit spawners
+	{
+		type: UnitSpawnAbility
+		unit: sting
+		spawnTime: 240
+		spawnX: -8
+		spawnY: 60
+		spawnEffect: spawn
+	}
+	{
+		type: UnitSpawnAbility
+		unit: sting
+		spawnTime: 240
+		spawnX: 8
+		spawnY: 60
+		spawnEffect: spawn
+	}
+//left spawners
+	{
+		type: UnitSpawnAbility
+		unit: scratch
+		spawnTime: 240
+		spawnX: 31
+		spawnY: 20
+		spawnEffect: spawn
+	}
+	{
+		type: UnitSpawnAbility
+		unit: scratch
+		spawnTime: 240
+		spawnX: 31
+		spawnY: 24
+		spawnEffect: spawn
+	}
+//i often lose track of stuff so yes you will see this again
+//2 spawners
+	{
+		type: UnitSpawnAbility
+		unit: scratch
+		spawnTime: 240
+		spawnX: 31
+		spawnY: 28
+		spawnEffect: spawn
+	}
+	{
+		type: UnitSpawnAbility
+		unit: scratch
+		spawnTime: 240
+		spawnX: 31
+		spawnY: 32
+		spawnEffect: spawn
+	}
+//4 spawners
+	{
+		type: UnitSpawnAbility
+		unit: scratch
+		spawnTime: 240
+		spawnX: 31
+		spawnY: 36
+		spawnEffect: spawn
+	}
+	{
+		type: UnitSpawnAbility
+		unit: scratch
+		spawnTime: 240
+		spawnX: 31
+		spawnY: 40
+		spawnEffect: spawn
+	}
+	{
+		type: UnitSpawnAbility
+		unit: scratch
+		spawnTime: 240
+		spawnX: 31
+		spawnY: 44
+		spawnEffect: spawn
+	}
+//7 spawners
+//right spawners
+	{
+		type: UnitSpawnAbility
+		unit: scratch
+		spawnTime: 240
+		spawnX: -31
+		spawnY: 20
+		spawnEffect: spawn
+	}
+	{
+		type: UnitSpawnAbility
+		unit: scratch
+		spawnTime: 240
+		spawnX: -31
+		spawnY: 24
+		spawnEffect: spawn
+	}
+//i often lose track of stuff so yes you will see this again
+//3 spawners
+	{
+		type: UnitSpawnAbility
+		unit: scratch
+		spawnTime: 240
+		spawnX: -31
+		spawnY: 28
+		spawnEffect: spawn
+	}
+	{
+		type: UnitSpawnAbility
+		unit: scratch
+		spawnTime: 240
+		spawnX: -31
+		spawnY: 32
+		spawnEffect: spawn
+	}
+	{
+		type: UnitSpawnAbility
+		unit: scratch
+		spawnTime: 240
+		spawnX: -31
+		spawnY: 36
+		spawnEffect: spawn
+	}
+	{
+		type: UnitSpawnAbility
+		unit: scratch
+		spawnTime: 240
+		spawnX: -31
+		spawnY: 40
+		spawnEffect: spawn
+	}
+	{
+		type: UnitSpawnAbility
+		unit: scratch
+		spawnTime: 240
+		spawnX: -31
+		spawnY: 44
+		spawnEffect: spawn
+	}
+//7 spawners
+]
+research: amputate

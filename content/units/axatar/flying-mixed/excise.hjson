@@ -2,7 +2,6 @@ name: Excise
 type: flying
 hitSize: 44
 flying: true
-controller: HugAI
 armor: 12
 health: 2800
 speed: 1.5

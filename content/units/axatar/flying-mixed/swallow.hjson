@@ -13,9 +13,10 @@ engineOffset: 27
 engineSize: 4
 rotateShooting: false
 faceTarget: false
+circleTarget: false
 weapons: [
 	{
-		name: weapon3
+		name: weaponD
 		type: PointDefenseWeapon
 		x: 0
 		y: 0
@@ -31,16 +32,16 @@ abilities: [
 		type: UnitSpawnAbility
 		unit: scratch
 		spawnTime: 360
-		spawnX: 8
-		spawnY: -16
+		spawnX: 16
+		spawnY: 8
 		spawnEffect: spawn 
 		}
 	{
 		type: UnitSpawnAbility
 		unit: scratch
 		spawnTime: 360
-		spawnX: 8
-		spawnY: -16
+		spawnX: -16
+		spawnY: 8
 		spawnEffect: spawn
 		}
 	{
