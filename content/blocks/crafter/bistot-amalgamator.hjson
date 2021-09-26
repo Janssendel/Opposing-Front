@@ -31,9 +31,9 @@ consumes: {
 		}		
 	}
 requirements: [
-	plasteel/10
+	plasteel/15
 	copper/25
-	titanium/30
+	titanium/45
 ]
 category: crafting
 research: plasteel-compressor

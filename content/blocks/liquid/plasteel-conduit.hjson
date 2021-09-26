@@ -1,0 +1,13 @@
+category: liquid
+type: Conduit
+health: 140
+size: 1
+liquidCapacity: 24
+liquidPressure: 1.100
+buildTime: 10
+leaks: true
+requirements: [
+	metaglass/2
+	plasteel/1
+]
+research: pulse-conduit

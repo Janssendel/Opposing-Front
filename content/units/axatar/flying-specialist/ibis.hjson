@@ -1,0 +1,51 @@
+name: Ibis
+description: Entry-level metaphase unit.
+type: flying
+flying: true
+speed: 2
+accel: 0.2
+drag: 0.3
+rotateSpeed: 3.1
+health: 240
+armor: 2
+hitSize: 8
+engineOffset: 9
+engineSize: 2
+weapons: [
+	{
+		name: weapon4
+		x: 4
+		y: 0
+		reload: 35
+		ejectEffect: casing2
+		mirror: true
+		shootSound: shoot
+		shake: 0.5
+		bullet: {
+			type: MissileBulletType
+			speed: 3
+			lifetime: 60
+			damage: 120
+			width: 5
+			height: 10
+			frontColor: c0ecff
+			backColor:87ceeb
+			hitShake: 2
+		}
+	}
+	{
+		name: ibis-meta
+		x: 0
+		y: 0
+		reload: 180
+		heatColor: dea2df
+		shootStatus: metaphase
+		shootStatusDuration: 60
+		heatColor: ffffff
+		cooldownTime: 180
+		shootSound:
+		smokeEffect: none
+		shootEffect: none
+	}
+]
+research: bite

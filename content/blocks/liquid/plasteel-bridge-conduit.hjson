@@ -1,0 +1,17 @@
+name: Plasteel Bridge Conduit
+category: liquid
+type: LiquidBridge
+description: Transports liquids over longer distances. Able to stand up to some damage.
+size: 1
+hasPower: false
+health: 100
+arrowSpacing: 4
+range: 8
+hasPower: false
+liquidCapacity: 24
+buildTime: 30
+requirements: [
+	metaglass/12
+	plasteel/2
+]
+research: bridge-conduit

@@ -32,7 +32,7 @@ consumes: {
 	}
 requirements: [
 	titanium/65
-	copper: 190
+	copper/190
 	silicon/70
 ]
 category: crafting

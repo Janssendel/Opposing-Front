@@ -1,0 +1,43 @@
+name: Bistot Amalgamator
+size: 3
+drawer: DrawSmelter
+hasPower: true
+hasLiquids: false
+hasItems: true
+craftTime: 240
+craftEffect:{
+	type: ParticleEffect
+	colorFrom: ffffff
+	colorTo: 858999
+	particles: 10
+	cone: 360
+	lenth: 10
+	spin: 50
+	sizeFrom: 2
+	sizeTo: 0
+	lenFrom: 1
+	lenTo: 2
+	strokeFrom: 4
+	strokeTo: 2
+	lifetime: 25
+}
+consumes: {
+	power: 2
+	items: {
+		items: [
+		silicon/8
+		metaglass/4
+		]
+		}		
+	}
+requirements: [
+	plasteel/35
+	copper/60
+	thorium/100
+	titanium/130
+]
+category: crafting
+research: bistot-amalgamator
+outputItem: bistot/4
+buildVisibility: shown
+type: genericCrafter
