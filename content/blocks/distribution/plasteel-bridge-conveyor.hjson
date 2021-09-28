@@ -1,0 +1,14 @@
+name: Plasteel Bridge Conveyor
+description: Transports items over terrain or buildings. Faster than standard bridge conveyors.
+type: BufferedItemBridge
+range: 8
+speed: 100
+arrowSpacing: 4
+bufferCapacity: 25
+health: 80
+size: 1
+requirements: [
+	plasteel/5
+	lead/5
+	]
+research: bridge-conveyor

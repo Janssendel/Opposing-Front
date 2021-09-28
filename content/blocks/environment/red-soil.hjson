@@ -1,0 +1,5 @@
+name: Red Soil
+type: Floor
+blendGroup: grass
+variants: 3
+oilAttribute: 0.4

@@ -1,0 +1,51 @@
+type: UnitFactory
+
+name: Fabricator
+description: Creates small units to be further upgraded or to be used instantly
+
+size: 3
+consumes: {
+	power: 2
+}
+plans: [
+	{
+		unit: sting
+		time: 660
+		requirements: [
+			titanium/10
+			silicon/30
+		]
+	}
+	{
+		unit: cicada
+		time: 840
+		requirements: [
+			plasteel/5
+			silicon/20
+		]
+	}
+	{
+		unit: tiir-vaak
+		time: 550
+		requirements: [
+			silicon/20
+			titanium/15
+		]
+	}
+	{
+		unit: khor-dav
+		time: 790
+		requirements: [
+			plasteel/5
+			silicon/15
+			graphite/5
+		]
+	}
+	]
+requirements: [
+	plasteel/60
+	silicon/80
+	metaglass/40
+]
+research: ground-factory
+category: units

@@ -4,7 +4,7 @@ type: flying
 flying: true
 speed: 2
 accel: 0.2
-drag: 0.3
+drag: 0.2
 rotateSpeed: 3.1
 health: 240
 armor: 2

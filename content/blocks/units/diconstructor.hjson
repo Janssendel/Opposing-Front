@@ -18,7 +18,7 @@ consumes: {
 }
 upgrades: [
   [sting, bite],
-  [cicada. bee],
+  [cicada, bee],
   [tiir-vaak, khar-selim]
 ]
 requirements: [
@@ -26,5 +26,5 @@ requirements: [
   silicon/150
   plasteel/100
 ]
-research: axatar-factory
+research: fabricator
 category: units

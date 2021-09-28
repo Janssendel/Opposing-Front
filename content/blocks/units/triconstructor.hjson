@@ -12,7 +12,7 @@ consumes: {
     items: [
       plasteel/80
       bistot/120
-      pastanium/40
+      plastanium/40
     ]
   }
 }
@@ -27,5 +27,5 @@ requirements: [
   plasteel/200
   plastanium/150
 ]
-research: axatar-factory
+research: diconstructor
 category: units
