@@ -1,0 +1,9 @@
+type: StackConveyor
+category: distribution
+requirements: [
+	plasteel/3
+	silicon/3
+]
+health: 245
+speed: 0.08
+itemCapacity: 20

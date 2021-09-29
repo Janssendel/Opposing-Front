@@ -1,0 +1,27 @@
+name: Bistot Refiner
+descirption: Refines Kernite into usable Bistot.
+size: 2
+hasPower: true
+hasLiquids: false
+hasItems: true
+craftTime: 30
+craftEffect: 
+consumes: [
+	power: 120
+	items: {
+		items: [
+		kernite/2
+		]
+	}
+]
+requirements: [
+	lead/100
+	copper/50
+	titanium/45
+]
+category: crafting
+research: bistot-amalgamator
+outputItem: bistot/1
+buildVisibility: shown
+type: genericCrafter
+	

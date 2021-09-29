@@ -1,6 +1,6 @@
 name: Plasteel Pressurizer
-drawer: DrawSmelter
 size: 3
+drawer: DrawSmelter
 hasPower: true
 hasLiquids: false
 hasItems: true
