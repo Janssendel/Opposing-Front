@@ -1,0 +1,40 @@
+type: LaserTurret 
+name: Decimeter
+health: 1250
+size: 2
+rotateSpeed: 2.5
+firingMoveFract: 0.25
+shootDuration: 310
+powerUse: 30
+reload: 420
+shootEffect: none
+smokeEffect: none
+shootSound: laserbig
+chargeSound: lasercharge2
+loopSound: beam
+chargeTime: 10
+shots: 3
+inaccuracy: 4
+range: 230
+shootType: {
+	type: ContinuousLaserBulletType
+	damage: 24
+	lifetime: 16
+	absorbable: false
+	reflectable: false
+	hittable: true
+	length: 320
+	fadeTime: 15
+	colors: [62ae7f, 73d188, 84f491, ffffff]
+	tscale: [0.8, 0.6, 0.4, 0.2, 0.1]
+
+	status: electrified
+
+}
+category: turret
+requirements: [
+	plasteel/30
+	titanium/50
+	plastanium/15
+]
+research: centimeter
