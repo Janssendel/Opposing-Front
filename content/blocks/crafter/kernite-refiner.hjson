@@ -5,9 +5,9 @@ hasPower: true
 hasLiquids: false
 hasItems: true
 craftTime: 30
-craftEffect: 
+craftEffect: none
 consumes: [
-	power: 120
+	power: 2
 	items: {
 		items: [
 		kernite/2
