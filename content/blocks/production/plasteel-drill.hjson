@@ -1,0 +1,31 @@
+type: Drill
+name: Plasteel Drill
+size: 4
+hasPower: true
+tier: 6
+updateEffect: pulverizeRed
+updateEffectChance: 0.03f
+drillEffect: mineHuge
+rotateSpeed: 5
+warmupSpeed: 0.03
+itemCapacity: 25
+liquidBoostIntensity: 1.5
+consumes: {
+	power: 3.5
+	liquid: {
+		liquid: oil
+		amount: 0.2
+		booster: true
+		optional: true
+	}
+}
+requirements: [
+	plasteel/200
+	titanium/50
+	silicon/100
+	bistot/40
+]
+category: production
+ambientSound: hum
+ambientSoundVolume: 0.1
+research: blast-drill
