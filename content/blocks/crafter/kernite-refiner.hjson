@@ -1,4 +1,4 @@
-name: Bistot Refiner
+name: Kernite Refiner
 descirption: Refines Kernite into usable Bistot.
 size: 2
 hasPower: true
@@ -6,14 +6,14 @@ hasLiquids: false
 hasItems: true
 craftTime: 30
 craftEffect: none
-consumes: [
+consumes: {
 	power: 2
 	items: {
 		items: [
 		kernite/2
 		]
 	}
-]
+}
 requirements: [
 	lead/100
 	copper/50
