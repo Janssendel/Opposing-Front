@@ -1,0 +1,19 @@
+type: CoreBlock
+name: Core-Mitochondria
+health: 8550
+size: 4
+captureInvincibility: 132
+itemCapacity: 5600
+unitType: gamma
+unitCapModifier: 32
+research: core-cell
+researchCostMultiplier: 0.5
+requirements: [
+	plasteel/1800
+	titanium/3500
+	thorium/750
+	copper/6000
+	bistot/550
+]
+buildVisibility: shown
+category: effect
