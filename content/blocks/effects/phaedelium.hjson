@@ -1,3 +1,4 @@
+/*
 name: phaedelium
 localizedName: Phaedelium
 size: 8
@@ -27,4 +28,4 @@ shootType: {
 		type: LightningBulletType
 		lightningLength: 100
 		lightningColor: c0ecff
-		
+*/
