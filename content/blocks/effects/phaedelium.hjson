@@ -1,0 +1,30 @@
+name: phaedelium
+localizedName: Phaedelium
+size: 8
+shootEffect: none
+shootSound: none
+smokeEffect: none
+rangee: 10000
+rotateSpeed: 100
+powerUse: 14400
+shootType: {
+	type: BasicBulletType
+	speed: 0
+	hittable: false
+	frontColor: ffffff
+	backColor: ffffff
+	
+	smokeEffect: none
+	shootEffect: none
+	despawnEffect: {
+		type: MulttEffect
+		effects: [
+			type:
+	
+	fragCone: 360
+	fragBullets: 20
+	frabBullet: {
+		type: LightningBulletType
+		lightningLength: 100
+		lightningColor: c0ecff
+		
